@@ -1,4 +1,9 @@
-# Action On Item Use
+---
+title: Energy Swirl (Power Type)
+date: 2021-06-20
+---
+
+# Energy Swirl
 
 [Power Type](../power_types.md).
 

@@ -1,8 +1,7 @@
 site_name: Apugli Documentation
 nav:
     - Home: index.md
-    - Apugli:
-      - Types:
-        - Power Types: apugli/power_types.md
+    - Types:
+      - Power Types: apugli/power_types.md
 theme: readthedocs
 separator: '_'
