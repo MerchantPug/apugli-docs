@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to the Apugli Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Before reading this documentation, please have a decent understanding of Apoli powers/Origins datapacking as this has information that builds from there.
+Read up on the [Origins Documentation](https://origins.readthedocs.io/en/latest/) before asking questions.
 
-## Commands
+You can visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toomanyorigins) or [Modrinth](https://modrinth.com/mod/toomanyorigins) to download TooManyOrigins which includes Apugli as a library.
+A 1.17 CursedOrigins version will be added here once it has happened.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## General Information
+* If you would like to discuss anything on this wiki or discuss the mod, feel free to join the [TooManyOrigins/CursedOrigins Discord Server](https://discord.gg/UBfEjsANNz)
+* Dragonborn gets which of the two abilities are used from the lightable tag. If you have any modded furnaces/campfires you are able to add them to the tag `(toomanyorigins/tags/blocks/lightable)`
+* If you would like to make an item not protect Undead when worn on their head you are able to add the item to the tag `(toomanyorigins/tags/items/ignore_head_slot)`. Nothing is in this tag by default.

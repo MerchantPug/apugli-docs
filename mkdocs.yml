@@ -1,2 +1,8 @@
 site_name: Apugli Documentation
-site_url: https://apugli.readthedocs.io/
+nav:
+    - Home: index.md
+    - Apugli:
+      - Types:
+        - Power Types: apugli/power_types.md
+theme: readthedocs
+separator: '_'
