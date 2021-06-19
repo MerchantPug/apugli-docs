@@ -1,3 +1,8 @@
+---
+title: Home
+date: 2021-06-20
+---
+
 # Welcome to the Apugli Documentation
 
 Before reading this documentation, please have a decent understanding of Apoli powers/Origins datapacking as this has information that builds from there.
