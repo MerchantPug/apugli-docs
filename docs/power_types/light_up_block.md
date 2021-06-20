@@ -48,7 +48,7 @@ Field  | Type | Default | Description
     "type": "apugli:block_looking_at",
     "block_condition": {
       "type": "origins:block",
-      "tag": "toomanyorigins:furnace",
+      "block": "toomanyorigins:furnace",
       "inverted": true
     }
   }

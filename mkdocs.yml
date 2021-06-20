@@ -3,5 +3,16 @@ nav:
     - Home: index.md
     - Types:
       - Power Types: power_types.md
+    - Conditions:
+      - Damage Conditions: damage_conditions.md
+      - Entity Conditions: entity_conditions.md
+    - Actions:
+      - Entity Actions: entity_actions.md
+    - Miscellaneous:
+      - Modded Damage Sources: misc/modded_damage_sources.md
+      - Origins: misc/origins.md
+      - Powers: misc/powers.md
+      - Resource Bars: misc/resource_bars.md
+      - Status Effects: misc/status_effects.md
 theme: readthedocs
 separator: '_'

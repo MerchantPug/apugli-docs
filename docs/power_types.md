@@ -22,4 +22,4 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Visual Timer](visual_timer)
 
 ## TooManyOrigins
-* [Modify Dragon Fireball](visual_timer)
+* [Modify Dragon Fireball](modify_dragon_fireball)

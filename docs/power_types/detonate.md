@@ -7,11 +7,9 @@ date: 2021-06-20
 
 [Power Type](../power_types.md).
 
-Defines the entity group of the player, mostly used for determining enchantment bonus damage towards the player. A player should only have one of this or `origins:entity_group`.
+An active power that summons an explosion at the entity's position as well as killing the entity. This power can double in explosive power if the player has either Charged status effect.
 
-If you'd like to use the vanilla entity groups use `origins:entity_group` instead.
-
-Type ID: `apugli:entity_group`
+Type ID: `apugli:detonate`
 
 ### Fields
 
@@ -26,7 +24,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:self_explode",
+  "type": "apugli:detonate",
   "explosion_radius": 3.0,
   "key": {
     "key": "key.origins.primary_active",
