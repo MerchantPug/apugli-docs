@@ -1,6 +1,6 @@
 ---
 title: Rocket Jump (Power Type)
-date: 2021-06-20
+date: 2021-06-25
 ---
 
 # Rocket Jump
@@ -17,10 +17,10 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) |  | The number of ticks the player has to wait between uses of this power.
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
-`damage_source` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | *optional* | If set, this is the damage source that will be used to deal the damage.
-`damage_amount` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | 3.0 | How much damage will be dealt upon using this ability.
+`source` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | *optional* | If set, this is the damage source that will be used to deal damage to the entity upon using this ability.
+`amount` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | *optional*| How much damage will be dealt upon using this ability.
 `speed` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | *optional* | The speed applied to the player in the opposite direction they are facing.
-`should_use_charged` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | false | Whether this ability should consume the TooManyOrigins' or CursedOrigins' Charged status effect for a more powerful blast.
+`use_charged` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | false | Whether this ability should consume the TooManyOrigins' or CursedOrigins' Charged status effect for a more powerful blast. This has no effect unless either mod is initialized.
 `key` | [Key](https://origins.readthedocs.io/en/latest/data_types/key/) | | Which active key this power should respond to.
 
 
