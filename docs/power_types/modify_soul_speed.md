@@ -7,7 +7,7 @@ date: 2021-06-25
 
 [Power Type](../power_types.md).
 
-Adds the specified amount of Soul Speed levels to an entity.
+Modifies the amount of Soul Speed levels of an entity.
 
 Type ID: `apugli:modify_soul_speed`
 
