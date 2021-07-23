@@ -1,6 +1,6 @@
 ---
 title: Light Up Block (Power Type)
-date: 2021-06-20
+date: 2021-07-13
 ---
 
 # Light Up Block
@@ -17,8 +17,8 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) |  | The number of ticks the player has to wait between uses of this power.
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
-`burn_time` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | 1600 | The number of ticks that a furnace is lit for.
-`brew_time` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | 20 | The amount of fuel given to a brewing stand upon use.
+`burn_time` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | `1600` | The number of ticks that a furnace is lit for.
+`brew_time` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | `20` | The amount of fuel given to a brewing stand upon use.
 `particle` | [Identifier](https://origins.readthedocs.io/en/latest/data_types/identifier/) | *optional* | ID of the particle type to use.
 `particle_count` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | *optional* | The amount of particles to spawn when using this ability.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/data_types/identifier/) | *optional* | ID of the sound to play when using this ability.

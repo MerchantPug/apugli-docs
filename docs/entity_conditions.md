@@ -1,6 +1,6 @@
 ---
 title: Entity Conditions
-date: 2021-06-20
+date: 2021-07-13
 ---
 
 # Entity Conditions
@@ -11,4 +11,5 @@ date: 2021-06-20
 * [Apugli Entity Group](entity_group)
 * [Block Looking At](block_looking_at)
 * [Can Have Effect](can_have_effect)
-* [Nearby Entities](nearby_entities)
+* [Entity in Radius](entity_in_radius)
+* [Structure](structure)

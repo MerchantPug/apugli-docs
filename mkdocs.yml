@@ -10,6 +10,7 @@ nav:
       - Entity Actions: entity_actions.md
     - Miscellaneous:
       - Modded Damage Sources: misc/modded_damage_sources.md
+      - Modded Sounds: misc/modded_sounds.md
       - Origins: misc/origins.md
       - Powers: misc/powers.md
       - Resource Bars: misc/resource_bars.md

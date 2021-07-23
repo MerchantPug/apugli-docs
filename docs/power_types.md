@@ -1,6 +1,6 @@
 ---
 title: Power Types
-date: 2021-06-25
+date: 2021-07-18
 ---
 
 # Power Types
@@ -12,12 +12,17 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Apugli
 * [Apugli Entity Group](entity_group)
+* [Bunny Hop](bunny_hop)
 * [Eat Grass](eat_grass)
+* [Edible Stack](edible_stack)
 * [Energy Swirl](energy_swirl)
 * [Light Up Block](light_up_block)
 * [Modify Soul Speed](modify_soul_speed)
+* [Player Model](player_model)
 * [Rocket Jump](rocket_jump)
+* [Set Texture](set_texture)
 * [Visual Timer](visual_timer)
+* [Wearable Stack](wearable_stack)
 
 ## TooManyOrigins
 * [Modify Dragon Fireball](modify_dragon_fireball)

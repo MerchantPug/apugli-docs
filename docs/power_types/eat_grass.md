@@ -1,17 +1,15 @@
 ---
 title: Eat Grass (Power Type)
-date: 2021-06-20
+date: 2021-07-17
 ---
 
 # Eat Grass
 
 [Power Type](../power_types.md).
 
-Defines the entity group of the player, mostly used for determining enchantment bonus damage towards the player. A player should only have one of this or `origins:entity_group`.
+An active power that allows the user to eat types of grass block.
 
-If you'd like to use the vanilla entity groups use `origins:entity_group` instead.
-
-Type ID: `apugli:entity_group`
+Type ID: `apugli:eat_grass`
 
 ### Fields
 
@@ -45,4 +43,4 @@ Field  | Type | Default | Description
   }
 }
 ```
-This power eats grass when pressing the Use key whilst holding nothing in your main hand slot.
+This power eats grass when pressing the use key whilst holding nothing in your main hand slot.
