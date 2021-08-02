@@ -1,9 +1,9 @@
 ---
-title: Apugli Entity Group (Entity Condition)
-date: 2021-06-20
+title: Block Looking At (Entity Condition)
+date: 2021-08-03
 ---
 
-# Apugli Entity Group
+# Block Looking At
 
 [Entity Condition](../entity_conditions.md).
 

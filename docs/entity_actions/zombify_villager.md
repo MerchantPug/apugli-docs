@@ -1,11 +1,11 @@
 ---
 title: Zombify Villager (Entity Action)
-date: 2021-06-20
+date: 2021-08-03
 ---
 
 # Zombify Villager
 
-[Entity Condition](../entity_conditions.md).
+[Entity Action](../entity_actions.md).
 
 Turns a villager entity into a zombie villager.
 

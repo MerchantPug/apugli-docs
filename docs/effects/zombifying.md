@@ -1,10 +1,10 @@
 ---
-title: Charged (TooManyOrigins) (Status Effects)
-date: 2021-06-20
+title: Zombifying (TooManyOrigins) (Status Effects)
+date: 2021-08-03
 ---
-# Charged (TooManyOrigins)
+# Zombifying (TooManyOrigins)
 
-[Status Effect](../misc/effects.md). ID: `toomanyorigins:charged`
+[Status Effect](../misc/effects.md). ID: `toomanyorigins:zombifying`
 
 A status effect that deals 2 separate hits of damage and drains hunger from player entities.
 
