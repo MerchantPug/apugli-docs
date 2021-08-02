@@ -1,5 +1,5 @@
 ---
-title: Charged (TooManyOrigins) (Status Effects)
+title: End Fire (Status Effects)
 date: 2021-08-03
 ---
 # End Fire

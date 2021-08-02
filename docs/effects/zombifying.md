@@ -1,5 +1,5 @@
 ---
-title: Zombifying (TooManyOrigins) (Status Effects)
+title: Zombifying (Status Effects)
 date: 2021-08-03
 ---
 # Zombifying (TooManyOrigins)

@@ -1,5 +1,5 @@
 ---
-title: Soul Shield (TooManyOrigins) (Status Effects)
+title: Soul Shield (Status Effects)
 date: 2021-08-03
 ---
 # Soul Shield (TooManyOrigins)
