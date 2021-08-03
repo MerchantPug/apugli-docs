@@ -15,14 +15,24 @@ Type ID: `apugli:item_attribute`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | Attributed Attribute Modifier | *optional* | If specified, this modifier will be applied to its corresponding attribute.
-`modifiers` | Array of Attributed Attribute Modifiers	|*optional* | If specified, these modifiers will be applied to their corresponding attributes.
+`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/item_conditions/) | | The item condition that items must satisfy to be affected by this power.
+`modifier` | [Attributed Attribute Modifier](https://origins.readthedocs.io/en/latest/data_types/attributed_attribute_modifier/) | *optional* | If specified, this modifier will be applied to its corresponding attribute.
+`modifiers` | [Array](https://origins.readthedocs.io/en/latest/data_types/array/) of [Attributed Attribute Modifiers](https://origins.readthedocs.io/en/latest/data_types/attributed_attribute_modifier/)	|*optional* | If specified, these modifiers will be applied to their corresponding attributes.
 
 ### Example
 ```json
 {
-  "type": "apugli:entity_group",
-  "group": "player_undead"
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "miner:pickaxes"
+    }
+  },
+  "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 2
+    }
 }
 ```
-This power marks the player as Player Undead, meaning they will take 60% of the enchantment level's damage from Smite and will have the Instant Health and Instant Damage effects swapped.
+This example adds 2 extra attack damage to any item that is in the `miner:pickaxes` tag.

@@ -15,7 +15,7 @@ Type ID: `apugli:edible_stack`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/item_conditions/) |  | The number of ticks the player has to wait between uses of this power.
+`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/item_conditions/) |  | The item condition that items must satisfy to be affected by this power.
 `hunger` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | | How much hunger an item gives upon eating it.
 `saturation` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | | How much saturation an item gives upon eating it.
 `meat` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | `false` | Whether the item counts as meat.
@@ -23,6 +23,7 @@ Field  | Type | Default | Description
 `snack` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | `false` | Whether the item takes half the amount of time to eat when compared to regular food (see Dried Kelp)
 `effect` | [Status Effect Instance](https://origins.readthedocs.io/en/latest/data_types/status_effect_instance/) |	*optional* | If set, this status effect will be applied by this power.
 `effects` | [Array](https://origins.readthedocs.io/en/latest/data_types/array/) of [Status Effect Instances](https://origins.readthedocs.io/en/latest/data_types/status_effect_instance/) | *optional* |If set, these status effects will be applied by this power.
+`tick_rate` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | `10` | The frequency (in ticks) with which to set the items that satisfy the condition's foodcomponents. Lower values set the component quicker, but this comes at a potentially huge performance cost.
 
 ### Example
 ```json

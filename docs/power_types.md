@@ -16,6 +16,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Eat Grass](eat_grass)
 * [Edible Stack](edible_stack)
 * [Energy Swirl](energy_swirl)
+* [Item Attribute](item_attribute)
 * [Light Up Block](light_up_block)
 * [Modify Soul Speed](modify_soul_speed)
 * [Player Model](player_model)
