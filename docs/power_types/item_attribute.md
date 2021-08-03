@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 ```json
 {
   "item_condition": {
-    "type": "origins:ingredient",
+    "type": "apoli:ingredient",
     "ingredient": {
         "tag": "miner:pickaxes"
     }
