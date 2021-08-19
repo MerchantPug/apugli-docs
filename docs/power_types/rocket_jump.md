@@ -1,6 +1,6 @@
 ---
 title: Rocket Jump (Power Type)
-date: 2021-07-13
+date: 2021-08-19
 ---
 
 # Rocket Jump
@@ -17,7 +17,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) |  | The number of ticks the player has to wait between uses of this power.
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
-`source` | [Integer](https://origins.readthedocs.io/en/latest/data_types/integer/) | *optional* | If set, this is the damage source that will be used to deal damage to the entity upon using this ability.
+`source` | [Damage Source](https://origins.readthedocs.io/en/latest/data_types/damage_source/) | *optional* | If set, this is the damage source that will be used to deal damage to the entity upon using this ability.
 `amount` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | *optional*| How much damage will be dealt upon using this ability.
 `speed` | [Float](https://origins.readthedocs.io/en/latest/data_types/float/) | *optional* | The speed applied to the player in the opposite direction they are facing.
 `use_charged` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | `false` | Whether this ability should consume the TooManyOrigins' or CursedOrigins' Charged status effect for a more powerful blast. This has no effect unless either mod is initialized.

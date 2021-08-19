@@ -7,6 +7,7 @@ nav:
       - Damage Conditions: damage_conditions.md
       - Entity Conditions: entity_conditions.md
     - Actions:
+      - Block Actions: block_actions.md
       - Entity Actions: entity_actions.md
     - Miscellaneous:
       - Modded Damage Sources: misc/modded_damage_sources.md

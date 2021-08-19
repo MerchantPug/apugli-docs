@@ -1,9 +1,9 @@
 ---
-title: Wearable Stack (Power Type)
+title: Wearable Item (Power Type)
 date: 2021-07-22
 ---
 
-# Wearable Stack
+# Wearable Item
 
 [Power Type](../power_types.md).
 
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:wearable_stack",
+  "type": "apugli:wearable_item",
   "stack": {
     "item": "minecraft:brown_carpet",
     "tag": "{CustomModelData:1}"

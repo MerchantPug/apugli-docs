@@ -1,6 +1,6 @@
 ---
 title: Visual Timer (Power Type)
-date: 2021-06-20
+date: 2021-08-19
 ---
 
 # Visual Timer
@@ -19,7 +19,7 @@ Field  | Type | Default | Description
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
 `reset_on_respawn` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | | Specifies if the power resets when a player respawns.
 
-### Example
+### Examples
 ```json
 {
   "type": "apugli:visual_timer",

@@ -9,4 +9,6 @@ date: 2021-06-25
 
 ## Apugli
 * [Explode](explode)
+* [Raycast](raycast)
+* [Swing Hand](swing_hand)
 * [Zombify Villager](zombify_villager)

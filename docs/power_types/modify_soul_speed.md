@@ -1,6 +1,6 @@
 ---
 title: Modify Soul Speed (Power Type)
-date: 2021-06-25
+date: 2021-08-19
 ---
 
 # Modify Soul Speed
@@ -17,6 +17,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the entity's amount of Soul Speed.
 `modifiers` | [Array of Attribute Modifiers](https://origins.readthedocs.io/en/latest/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the entity's amount of Soul Speed.
+`block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/block_conditions/) | *optional* | If set, this will determine what blocks the soul speed effect will activate on.
 
 ### Example
 ```json

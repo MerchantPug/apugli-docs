@@ -1,6 +1,6 @@
 ---
 title: Set Texture (Power Type)
-date: 2021-07-14
+date: 2021-08-19
 ---
 
 # Set Texture
@@ -16,12 +16,14 @@ Type ID: `apugli:set_texture`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `texture_location` | [Identifier](https://origins.readthedocs.io/en/latest/data_types/identifier/) |  | Where the new texture is located.
+`player_model` | [String](https://origins.readthedocs.io/en/latest/data_types/string/) |  | The player model to associate with the player entity. One of `default` or `slim`. This only works for player entities.
 
 ### Example
 ```json
 {
   "type": "apugli:set_texture",
-  "texture_location": "mario:textures/gilbert.png"
+  "texture_location": "apugli:textures/gilbert.png",
+  "player_model": "default"
 }
 ```
 This power sets an entity's base texture to gilbert.png that is located in the textures folder in the mario folder.

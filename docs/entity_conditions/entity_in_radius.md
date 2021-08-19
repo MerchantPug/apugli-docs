@@ -1,6 +1,6 @@
 ---
 title: Entity in Radius (Entity Condition)
-date: 2021-07-13
+date: 2021-08-19
 ---
 
 # Entity in Radius
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "toomanyorigins:entity_in_radius",
+  "type": "apugli:entity_in_radius",
   "condition": {
-    "type": "origins:entity_type",
+    "type": "apoli:entity_type",
     "entity_type": "minecraft:creeper"
   },
   "radius": 5.0,

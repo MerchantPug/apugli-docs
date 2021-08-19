@@ -1,13 +1,13 @@
 ---
 title: Energy Swirl (Power Type)
-date: 2021-06-20
+date: 2021-08-19
 ---
 
 # Energy Swirl
 
 [Power Type](../power_types.md).
 
-Creates a translucent energy swirl around a player entity (Similar to a Charged Creeper or a Wither on 50% health or less).
+Creates a translucent energy swirl around an entity (Similar to a Charged Creeper or a Wither on 50% health or less).
 
 Type ID: `apugli:energy_swirl`
 

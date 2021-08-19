@@ -1,6 +1,6 @@
 ---
 title: Item Attribute (Power Type)
-date: 2021-07-22
+date: 2021-08-19
 ---
 
 # Item Attribute
@@ -22,6 +22,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
+  "type": "apugli:item_attribute",
   "item_condition": {
     "type": "apoli:ingredient",
     "ingredient": {
