@@ -14,14 +14,14 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Apugli Entity Group](entity_group)
 * [Bunny Hop](bunny_hop)
 * [Eat Grass](eat_grass)
-* [Edible Stack](edible_stack)
+* [Edible Item](edible_item)
 * [Energy Swirl](energy_swirl)
 * [Item Attribute](item_attribute)
 * [Modify Soul Speed](modify_soul_speed)
 * [Rocket Jump](rocket_jump)
 * [Set Texture](set_texture)
 * [Visual Timer](visual_timer)
-* [Wearable Stack](wearable_stack)
+* [Wearable Item](wearable_item)
 
 ## TooManyOrigins
 * [Modify Dragon Fireball](modify_dragon_fireball)
