@@ -13,7 +13,7 @@ This only works on entities that can normally wear the specified item on their h
 
 Only one of these powers will show up.
 
-Type ID: `apugli:wearable_stack`
+Type ID: `apugli:wearable_item`
 
 ### Fields
 
