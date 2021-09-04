@@ -13,7 +13,6 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 ## Apugli
 * [Apugli Entity Group](entity_group)
 * [Bunny Hop](bunny_hop)
-* [Eat Grass](eat_grass)
 * [Edible Item](edible_item)
 * [Energy Swirl](energy_swirl)
 * [Item Attribute](item_attribute)
