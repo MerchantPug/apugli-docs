@@ -34,7 +34,7 @@ Field  | Type | Default | Description
     "sprite_location": "toomanyorigins:textures/gui/tmo_resource_bar.png",
     "bar_index": 2
   },
-  "damage_source": {
+  "source": {
     "name": "overheat",
     "bypasses_armor": "true",
     "fire": "true",
@@ -44,7 +44,7 @@ Field  | Type | Default | Description
     "key": "key.origins.primary_active",
     "continuous": false
   },
-  "damage_amount": 2.0,
+  "amount": 2.0,
   "should_use_charged": true,
   "speed": 1.0
 }
