@@ -16,4 +16,4 @@ Overheat | `toomanyorigins:overheat` | You can rocket jump away from any object 
 Conductor | `toomanyorigins:conductor` | When struck by lightning, you become charged. | You gain the `toomanyorigins:charged` status effect for a 1 hour duration upon taking damage from lightning.
 Blast Resistant Hide | `toomanyorigins:blast_immunity` | You are immune to all forms of explosive damage. | You do not take damage from all damage sources marked as explosive.
 Sneaking Steps | `toomanyorigins:sneaking_steps` | As you are used to sneaking up on your prey, you move slightly slower. | You move 5% slower.
-Ailurophobia | `toomanyorigins:ailurophobia` | Being near cats or ocelots weakens and makes you slower. | If you're within 5 blocks radius of a cat or ocelot, you get weakness and slowness. The duration of the effect increases over time, with a maximum of 2 minutes.
+Ailurophobia | `toomanyorigins:ailurophobia` | Being near cats or ocelots weakens and makes you slower. | If you're within a 7 blocks radius of a cat or ocelot, you get weakness and slowness. The duration of the effect increases over time, with a maximum of 2 minutes.
