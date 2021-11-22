@@ -15,7 +15,6 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Bunny Hop](bunny_hop)
 * [Edible Item](edible_item)
 * [Energy Swirl](energy_swirl)
-* [Item Attribute](item_attribute)
 * [Modify Soul Speed](modify_soul_speed)
 * [Rocket Jump](rocket_jump)
 * [Set Texture](set_texture)
