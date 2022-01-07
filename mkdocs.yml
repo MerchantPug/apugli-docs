@@ -1,21 +1,23 @@
 site_name: Apugli Documentation
 nav:
     - Home: index.md
-    - Types:
-      - Power Types: power_types.md
-      - Data Types: data_types.md
-    - Conditions:
-      - Damage Conditions: damage_conditions.md
-      - Entity Conditions: entity_conditions.md
-    - Actions:
-      - Block Actions: block_actions.md
-      - Entity Actions: entity_actions.md
+    - General Types:
+      - Data Types: types/data_types.md
+      - Power Types: types/power_types.md
+    - Condition Types:
+      - Damage Conditions: types/damage_conditions.md
+      - Entity Conditions: types/entity_conditions.md
+    - Action Types:
+      - Block Actions: types/block_action_types.md
+      - Entity Actions: types/entity_action_types.md
     - Miscellaneous:
+      = Base Contents: misc/base_contents.md
       - Modded Damage Sources: misc/modded_damage_sources.md
       - Modded Sounds: misc/modded_sounds.md
-      - Origins: misc/origins.md
-      - Powers: misc/powers.md
       - Resource Bars: misc/resource_bars.md
-      - Status Effects: misc/status_effects.md
+      - Status Effects: misc/effects.md
 theme: readthedocs
-separator: '_'
+markdown_extensions:
+    - toc:
+        separator: "_"
+    - admonition

@@ -12,7 +12,6 @@ Name | Description
 ## Apugli
 Name | Description
 -----|-------------
-`indirectZombification` | damage to villagers from the `apugli:zombify_villager` entity action.
 `jumpExplosion.player` | explosions from the `apugli:rocket_jump` power type.
 
 ## TooManyOrigins
