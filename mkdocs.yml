@@ -11,7 +11,7 @@ nav:
       - Block Actions: types/block_action_types.md
       - Entity Actions: types/entity_action_types.md
     - Miscellaneous:
-      = Base Contents: misc/base_contents.md
+      - Base Contents: misc/base_contents.md
       - Modded Damage Sources: misc/modded_damage_sources.md
       - Modded Sounds: misc/modded_sounds.md
       - Resource Bars: misc/resource_bars.md
