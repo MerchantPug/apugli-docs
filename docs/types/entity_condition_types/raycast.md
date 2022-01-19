@@ -11,7 +11,7 @@ Checks whether a player entity is looking at a specific block or entity within t
 
 Entities are prioritized over blocks.
 
-Type ID: `apugli:looking_at`
+Type ID: `apugli:raycast`
 
 ### Fields
 
