@@ -5,8 +5,8 @@ nav:
       - Data Types: types/data_types.md
       - Power Types: types/power_types.md
     - Condition Types:
-      - Damage Conditions: types/damage_conditions.md
-      - Entity Conditions: types/entity_conditions.md
+      - Damage Conditions: types/damage_conditions_types.md
+      - Entity Conditions: types/entity_conditions_types.md
     - Action Types:
       - Block Actions: types/block_action_types.md
       - Entity Actions: types/entity_action_types.md
