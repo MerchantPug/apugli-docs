@@ -11,18 +11,18 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Apugli
 
-### Regular Types
+#### Regular Types
 * [Bunny Hop](bunny_hop)
 * [Edible Item](edible_item)
 * [Energy Swirl](energy_swirl)
 * [Rocket Jump](rocket_jump)
 * [Set Texture](set_texture)
 
-### Action-related
+#### Action-related
 - [Action on Block Placed](action_on_block_placed)
 - [Action on Bonemeal](action_on_bonemeal)
 
-### Modifying Types
+#### Modifying Types
 * [Modify Soul Speed](modify_soul_speed)
 
 ## TooManyOrigins
