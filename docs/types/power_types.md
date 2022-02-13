@@ -9,15 +9,17 @@ date: 2022-01-08
 
 Unless stated otherwise, each power type supports a `condition` field with an [entity condition](https://origins.readthedocs.io/en/latest/entity_conditions/). See [Power JSON](https://origins.readthedocs.io/en/latest/power_json/) for more details." - Origins Documentation
 
-# Apugli
+## Apugli
 
-## Regular Types
+**Regular Types**
 * [Bunny Hop](bunny_hop)
 * [Edible Item](edible_item)
 * [Energy Swirl](energy_swirl)
-* [Modify Soul Speed](modify_soul_speed)
 * [Rocket Jump](rocket_jump)
 * [Set Texture](set_texture)
+
+**Modifying Types**
+* [Modify Soul Speed](modify_soul_speed)
 
 ## TooManyOrigins
 * [Modify Dragon Fireball](modify_dragon_fireball)
