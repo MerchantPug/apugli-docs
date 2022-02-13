@@ -1,6 +1,6 @@
 ---
 title: Power Types
-date: 2022-01-08
+date: 2022-02-14
 ---
 
 # Power Types
@@ -17,6 +17,10 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Energy Swirl](energy_swirl)
 * [Rocket Jump](rocket_jump)
 * [Set Texture](set_texture)
+
+**Action-related**
+- [Action on Block Placed](action_on_block_placed)
+- [Action on Bonemeal](action_on_bonemeal)
 
 **Modifying Types**
 * [Modify Soul Speed](modify_soul_speed)
