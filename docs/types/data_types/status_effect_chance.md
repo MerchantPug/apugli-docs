@@ -13,17 +13,19 @@ An [Object](https://origins.readthedocs.io/en/latest/types/data_types/object/) w
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `effect` | [Status Effect Instance](https://origins.readthedocs.io/en/latest/types/data_types/status_effect_instance/) | | The status effect instance which is used when the chance is successful.
-`chance` | 
+`chance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The chance for the status effect to trigger.
 
 ### Examples:
 
 ```json
 {
-  	"food_component": {
-		"hunger": 4,
-        "saturation": 1.0
-  	}
+  	"effect": {
+		"effect": "minecraft:slowness",
+		"amplifier": 1,
+		"duration": 80
+	},
+	"chance": 0.8
 }
 ```
 
-An food component that recovers 4 hunger and 1 saturation.
+This is a Slowness II effect that lasts for 80 ticks with a chance that has an 80% chance of triggering.

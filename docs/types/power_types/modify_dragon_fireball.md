@@ -16,7 +16,7 @@ Type ID: `toomanyorigins:modify_dragon_fireball`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `damage_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the damage amount.
-`damage_modifiers` | [Array of Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the damage amount.
+`damage_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the damage amount.
 `min_radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Sets the radius to the amount of blocks specified at the start of the AoE's life.
 `max_radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Sets the radius to the amount of blocks specified at the end of the AoE's life.
 `duration` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) |  | Specifies the duration that the AoE Entity is out for.

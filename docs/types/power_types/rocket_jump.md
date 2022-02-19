@@ -41,7 +41,7 @@ Field  | Type | Default | Description
     "unblockable": "true"
   },
   "key": {
-    "key": "key.origins.primary_active",
+    "key": "key.use",
     "continuous": false
   },
   "amount": 2.0,
@@ -49,4 +49,4 @@ Field  | Type | Default | Description
   "speed": 1.0
 }
 ```
-This power allows a player to launch themself through the air while taking 1 heart of armor bypassing, unblockable fire damage named overheat. This ability considers the Charged status effect from TooManyOrigins and CursedOrigins.
+This power allows a player to launch themself through the air by pressing the use key while taking 1 heart of armor bypassing, unblockable fire damage named overheat. This ability considers the Charged status effect from TooManyOrigins and CursedOrigins.

@@ -19,8 +19,8 @@ Field  | Type | Default | Description
 `brew_time` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `20` | The amount of fuel given to a brewing stand upon use.
 `light_campfire` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `true` | Whether this action should light up campfires.
 `particle` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the particle type to use.
-`particle_count` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | *optional* | The amount of particles to spawn when using this ability.
-`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play when using this ability.
+`particle_count` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | *optional* | The amount of particles to spawn when the block lights up.
+`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play when the block lights up.
 
 
 ### Example

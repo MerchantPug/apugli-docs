@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 `use_action` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | *optional* | The action to associate with the player. One of `eat` or `drink`. Defaults to eat when null.
 `return_stack` | [Item Stack](https://origins.readthedocs.io/en/latest/types/data_types/item_stack/) | *optional* | The item stack to replace the item with upon consumption.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play while eating an item affected by this power. If not set this will be the default eating/drinking sound.
-`entity_action` | [Entity Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, this action will be executed on the entity eating this item.
+`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, this action will be executed on the entity eating this item.
 `tick_rate` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `10` | The frequency (in ticks) with which to set the items that satisfy the condition's food components. Lower values set the component quicker, but this comes at a potentially huge performance cost.
 
 ### Example

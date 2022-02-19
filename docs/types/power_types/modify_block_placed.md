@@ -21,7 +21,7 @@ Field | Type | Default | Description
 `blocks` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier) | *optional* | If specified, replaces the placed block with the blocks that has the specified namespace and IDs in a random fashion.
 `block_states` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier) | *optional* | If specified, replaces the placed block with the blocks that has the specified namespace, ID and block state in a random fashion.
 `block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types) | *optional* | If specified, executes the specified action at the placed block.
-`item_condition` | [Item Condition Types](https://origins.readthedocs.io/en/latest/types/item_condition_types) | | The block item used for placing a block.
+`item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | | The block item used for placing a block.
 
 
 ### Examples

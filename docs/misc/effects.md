@@ -8,7 +8,6 @@ date: 2021-01-08
 ## TooManyOrigins
 * [Charged (TooManyOrigins)](effects/charged_tmo.md)
 * [End Fire](effects/end_fire.md)
-* [Soul Shield](effects/soul_shield.md)
 * [Zombifying](effects/zombifying.md)
 
 ## CursedOrigins

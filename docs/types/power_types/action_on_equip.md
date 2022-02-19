@@ -14,25 +14,25 @@ Type ID: `apugli:action_on_equip`
 ### Fields
 Field  | Type | Default | Description
 -------|------|---------|-------------
-head | item_conditions | *optional* | Item condition to match the `head` item.
-chest | item_conditions | *optional* | Item condition to match the `chest` item.
-legs | item_conditions | *optional* | Item condition to match the `legs` item.
-feet | item_conditions | *optional* | Item condition to match the `feet` item.
-offhand | item_conditions | *optional* | Item condition to match the `offhand` item.
-action | entity_actions | | Action to apply when the matching item is equipped.
+`head` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `head` slot item must meet to run the action.
+`chest` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `chest` slot item must meet to run the action.
+`legs` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `legs` slot item must meet to run the action.
+`feet` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `feet` slot item must meet to run the action.
+`offhand` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `offhand` slot item must meet to run the action.
+`action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types) | | Action to apply when an item that meets the stated condition is met.
 
 ### Example
 ```json
 {
     "type": "apugli:action_on_equip",
     "head": {
-        "type": "origins:ingredient",
+        "type": "apoli:ingredient",
         "ingredient": {
             "item": "minecraft:netherite_helmet"
         }
     },
     "action": {
-        "type": "origins:heal",
+        "type": "apoli:heal",
         "amount": 6
     }
 }

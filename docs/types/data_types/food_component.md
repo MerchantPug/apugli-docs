@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 `always_edible` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | `false` | Whether this food component is edible at full hunger or not.
 `snack` | [Boolean](https://origins.readthedocs.io/en/latest/data_types/boolean/) | `false` | Whether this food component takes as long as dried kelp to eat (16 ticks) or not (32 ticks).
 `effect` | [Status Effect Chance](status_effect_chance) | *optional* | A status effect and the chance of it triggering upon consuming something with this food component.
-`effects` | [Array of Status Effect Chances](status_effect_chance) | *optional* | A status effect and the chance of it triggering upon consuming something with this food component.
+`effects` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Status Effect Chances](status_effect_chance) | *optional* | A status effect and the chance of it triggering upon consuming something with this food component.
 
 ### Examples:
 
@@ -31,4 +31,4 @@ Field  | Type | Default | Description
 }
 ```
 
-An food component that recovers 4 hunger and 1 saturation.
+A food component that recovers 4 hunger and 1 saturation.
