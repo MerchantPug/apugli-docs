@@ -16,11 +16,11 @@ Type ID: `apugli:custom_hurt_sound`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`muted` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | false | Determines if the hurt sound should be muted.
-`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | optional | If specified, this sound event will play instead of the original hurt sound of the entity that has the power.
-`sounds` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | optional | If specified, these sound events will play in a random fashion instead of the original hurt sound of the entity that has the power.
-`volume` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | 1.0 | Determines the volume of the sound event(s) being played.
-`pitch` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | 1.0 | Determines the pitch of the sound event(s) being played.
+`muted` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Determines if the hurt sound should be muted.
+`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If specified, this sound event will play instead of the original hurt sound of the entity that has the power.
+`sounds` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If specified, these sound events will play in a random fashion instead of the original hurt sound of the entity that has the power.
+`volume` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | Determines the volume of the sound event(s) being played.
+`pitch` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | Determines the pitch of the sound event(s) being played.
 
 
 ### Examples
