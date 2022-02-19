@@ -13,7 +13,7 @@ You can visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/toomanyo
 Likewise with TooManyOrigins you can visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cursedorigins) or [Modrinth](https://modrinth.com/mod/cursedorigins) to download CursedOrigins.
 
 ## General Information
-* This entire documentation is accurate to v1.3.1 of Apugli, v0.4.0 of TooManyOrigins and v2.0.1 of CursedOrigins.
+* This entire documentation is accurate to v1.4.0 of Apugli, v0.4.0 of TooManyOrigins and v2.0.2 of CursedOrigins.
 * If you would like to discuss anything on this wiki or discuss the mods, feel free to join the [Pug's Modzone Discord Server](https://discord.gg/UBfEjsANNz)
 * Thank you to Ultra for allowing me to use `moborigins:nearby_entities` from Mob Origins. I've expanded on this condition to make it more in line with `apoli:block_in_radius` but this condition saved me a lot of time.
 
