@@ -16,6 +16,7 @@ Likewise with TooManyOrigins you can visit [CurseForge](https://www.curseforge.c
 * This entire documentation is accurate to v1.4.0 of Apugli, v0.4.0 of TooManyOrigins and v2.0.2 of CursedOrigins.
 * If you would like to discuss anything on this wiki or discuss the mods, feel free to join the [Pug's Modzone Discord Server](https://discord.gg/UBfEjsANNz)
 * Thank you to Ultra for allowing me to use `moborigins:nearby_entities` from Mob Origins. I've expanded on this condition to make it more in line with `apoli:block_in_radius` but this condition saved me a lot of time.
+* You are able to use the `ope` namespace for any Apugli powers. This is also true for `toomanyorigins` and `cursedorigins` (2.0.0 and above only) if you have either mod installed.
 
 ## TooManyOrigins Tags
 * Dragonborn gets which of the two abilities are used from the lightable tag. If you have any modded furnaces/campfires you are able to add them to the tag `(toomanyorigins/tags/blocks/lightable)`.
