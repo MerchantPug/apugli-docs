@@ -17,8 +17,8 @@ Type ID: `apugli:custom_death_sound`
 Field | Type | Default | Description
 ------|------|---------|------------
 `muted` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Determines whether the death sound should be muted.
-`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) or [Weighted Sound Event](../data_types/weighted_sound_event.md) | *optional* | If specified, this sound event will play instead of the original death sound of the entity that has the power.
-`sounds` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) and/or [Weighted Sound Events](../data_types/weighted_sound_event.md) | *optional* | If specified, these sound events will play instead of the original death sound of the entity that has the power in a random fashion.
+`sound` | [Weighted Sound Event](../data_types/weighted_sound_event.md) | *optional* | If specified, this sound event will play instead of the original death sound of the entity that has the power.
+`sounds` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Weighted Sound Events](../data_types/weighted_sound_event.md) | *optional* | If specified, these sound events will play instead of the original death sound of the entity that has the power in a random fashion.
 `volume` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | Determines the volume of the sound event(s) being played.
 `pitch` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | Determines the pitch of the sound event(s) being played.
 
