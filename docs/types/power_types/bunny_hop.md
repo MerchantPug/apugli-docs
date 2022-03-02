@@ -26,7 +26,7 @@ Field  | Type | Default | Description
 `min_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types) | _optional_ | If specified, this action will be executed on the entity whenever the minimum value is reached.
 `max_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types) | _optional_ | If specified, this action will be executed on the entity whenever the maximum value is reached.
 `increase_per_tick` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `0.000375` | The amount of velocity added to the player depending on the resource's value.
-`tick_rate` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer) | `10` | The frequency (in ticks) with which to add to the resource. Lower values set the component quicker, but this comes at a potentially huge performance cost.
+`tick_rate` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer) | `10` | The frequency (in ticks) in which to add to the resource. Lower values set the component quicker, but this comes at a potentially huge performance cost.
 
 ### Example
 ```json
