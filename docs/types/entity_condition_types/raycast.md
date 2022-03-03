@@ -17,15 +17,17 @@ Type ID: `apugli:raycast`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The block condition which is applied to the block the player is looking at.
-`target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | The entity condition which is applied to the entity the player is looking at.
+`distance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Determines the maximum |
+`block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If specified, the block condition which must be fulfilled relating to the block that is hit by the raycast.
+`target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If specified, the entity condition which must be fulfilled relating to the entity that is hit by the raycast.
+`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, the bi-entity condition which must be fulfilled relating to the entity the raycast originates from and the entity that was hit by the raycast.
 
 ### Example
 ```json
 "condition": {
   "type": "apugli:block_looking_at",
   "block_condition": {
-    "type": "origins:block",
+    "type": "apoli:block",
     "block": "minecraft:grass_block"
   }
 }
