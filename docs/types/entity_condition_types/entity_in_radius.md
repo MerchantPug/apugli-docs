@@ -16,7 +16,7 @@ Type ID: `apugli:entity_in_radius`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `condition` |	[Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | | The block condition which is applied to the block at the player's feet.
-`radius` | [Float](https://origins.readthedocs.io/en/latest/types/types/data_types/float/) | | The radius to check blocks in.
+`radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | | The radius to check entities in.
 `comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| `">="` | How the number of blocks in the radius which fulfill block_condition should be compared to the specified value.
 `compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The value to compare the number to.
 
