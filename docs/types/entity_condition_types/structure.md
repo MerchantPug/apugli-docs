@@ -13,6 +13,10 @@ This condition only works for server side powers due to how structure detection 
 
 Type ID: `apugli:structure`
 
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](https://origins.readthedocs.io/en/latest/types/power_types/climbing/), [`origins:entity_glow`](https://origins.readthedocs.io/en/latest/types/power_types/entity_glow/), [`origins:shader`](https://origins.readthedocs.io/en/latest/types/power_types/shader/), etc. won't work with this.
+
 ### Fields
 
 Field  | Type | Default | Description
