@@ -1,5 +1,5 @@
 ---
-title: Rasycast (Entity Action)
+title: Raycast (Entity Action)
 date: 2021-08-19
 ---
 
