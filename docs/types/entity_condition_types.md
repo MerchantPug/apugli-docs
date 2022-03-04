@@ -9,7 +9,8 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 
 ## Apugli
 - [Can Have Effect](can_have_effect)
-- [Entity in Radius](entity_in_radius)
+- [Entity In Radius](entity_in_radius)
 - [Join Invulnerability Ticks](join_invulnerability_ticks)
+- [Particle In Radius](particle_in_radius)
 - [Raycast](raycast)
 - [Structure](structure)

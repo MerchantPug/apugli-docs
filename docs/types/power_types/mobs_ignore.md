@@ -2,9 +2,11 @@
 title: Mobs Ignore (Power Type)
 date: 2021-10-08
 ---
-# Mob Ignore
+# Mobs Ignore
 [Power Type](../power_types.md)
-Makes mobs ignore the power holder.
+
+Makes hostile mobs ignore the player.
+
 Type ID: `apugli:mob_ignore`
 
 ### Fields
