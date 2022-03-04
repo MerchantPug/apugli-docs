@@ -19,20 +19,26 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Edible Item](edible_item)
 - [Energy Swirl](energy_swirl)
 - [Force Particle Render](force_particle_render)
+- [Mobs Ignore](mobs_ignore)
 - [Rocket Jump](rocket_jump)
 - [Set Texture](set_texture)
 
 #### Action-related
 - [Action on Block Placed](action_on_block_placed)
 - [Action on Bonemeal](action_on_bonemeal)
+- [Action on Durability Change](action_on_durability_change)
 - [Action on Equip](action_on_equip)
 
-#### Modifying Types
+#### Modifying types
 - [Modify Block Placed](modify_block_placed)
 - [Modify Equipped Item Render](modify_equipped_item_render)
 - [Modify Soul Speed](modify_soul_speed)
 
+#### Preventing types
+- [Prevent Label Render](prevent_label_render)
+- [Prevent Sound](prevent_sound)
+
 ## TooManyOrigins
 
-#### Modifying Types
+#### Modifying types
 - [Modify Dragon Fireball](modify_dragon_fireball)
