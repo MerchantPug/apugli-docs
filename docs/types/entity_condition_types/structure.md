@@ -7,9 +7,7 @@ date: 2021-07-13
 
 [Entity Condition](../entity_condition_types.md).
 
-Checks whether the entity is of a specific entity group.
-
-This condition only works for server side powers due to how structure detection works.
+Checks whether an entity is standing inside a specific structure.
 
 Type ID: `apugli:structure`
 

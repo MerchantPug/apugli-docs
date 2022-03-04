@@ -17,7 +17,7 @@ Type ID: `apugli:raycast`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`distance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Determines the maximum |
+`distance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Determines the maximum length of the raycast. Defaults to the entity's reach if not present. |
 `block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If specified, the block condition which must be fulfilled relating to the block that is hit by the raycast.
 `target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If specified, the entity condition which must be fulfilled relating to the entity that is hit by the raycast.
 `bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, the bi-entity condition which must be fulfilled relating to the entity the raycast originates from and the entity that was hit by the raycast.
