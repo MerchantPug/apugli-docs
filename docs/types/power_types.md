@@ -12,15 +12,15 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 ## Apugli
 
 #### Regular Types
-* [Bunny Hop](bunny_hop)
-* [Custom Death Sound](custom_death_sound)
-* [Custom Footstep](custom_footstep)
-* [Custom Hurt Sound](custom_hurt_sound)
-* [Edible Item](edible_item)
-* [Energy Swirl](energy_swirl)
-* [Force Particle Render](force_particle_render)
-* [Rocket Jump](rocket_jump)
-* [Set Texture](set_texture)
+- [Bunny Hop](bunny_hop)
+- [Custom Death Sound](custom_death_sound)
+- [Custom Footstep](custom_footstep)
+- [Custom Hurt Sound](custom_hurt_sound)
+- [Edible Item](edible_item)
+- [Energy Swirl](energy_swirl)
+- [Force Particle Render](force_particle_render)
+- [Rocket Jump](rocket_jump)
+- [Set Texture](set_texture)
 
 #### Action-related
 - [Action on Block Placed](action_on_block_placed)
@@ -28,10 +28,10 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 - [Action on Equip](action_on_equip)
 
 #### Modifying Types
-* [Modify Block Placed](modify_block_placed)
-* [Modify Soul Speed](modify_soul_speed)
+- [Modify Block Placed](modify_block_placed)
+- [Modify Soul Speed](modify_soul_speed)
 
 ## TooManyOrigins
 
 #### Modifying Types
-* [Modify Dragon Fireball](modify_dragon_fireball)
+- [Modify Dragon Fireball](modify_dragon_fireball)
