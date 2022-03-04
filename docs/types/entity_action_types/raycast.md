@@ -26,7 +26,9 @@ Type ID: `apugli:raycast`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `distance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | If set, this is the maximum reach of the raycast. Otherwise this defaults to the entity's respective reaches if not present. |
-`pierce` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/data_types/boolean/) | `false` | Determines if the entity
+`pierce` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/data_types/boolean/) | `false` | Determines if the raycast pierces through entities.
+`particle` | [Particle Effect](https://origins.readthedocs.io/en/latest/types/data_types/particle_effect/) | *optional* | If set, the particle effect that is displayed on the ray.
+`spacing` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `0.5` | If there is a particle effect, the spacing between the particles displayed on the ray.
 `block_action` | [Block Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the block action to be executed on the block the player has targeted.
 `block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If set, the block condition that must be met by the entity the player is targeting in order to do actions.
 `bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | 
