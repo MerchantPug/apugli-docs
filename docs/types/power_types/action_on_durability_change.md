@@ -7,7 +7,7 @@ date: 2022-03-05
 
 [Power Type](../power_types.md).
 
-A power that executes entity actions whenever an item either gains durability, loses durability or breaks.
+Executes entity actions whenever an item either gains durability, loses durability or breaks.
 
 Type ID: `apugli:action_on_durability_change`
 

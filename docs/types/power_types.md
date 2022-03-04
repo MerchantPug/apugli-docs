@@ -1,6 +1,6 @@
 ---
 title: Power Types
-date: 2022-02-14
+date: 2022-03-05
 ---
 
 # Power Types
@@ -12,6 +12,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 ## Apugli
 
 #### Regular Types
+- [Aerial Affinity](aerial_affinity)
 - [Bunny Hop](bunny_hop)
 - [Custom Death Sound](custom_death_sound)
 - [Custom Footstep](custom_footstep)
@@ -19,6 +20,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Edible Item](edible_item)
 - [Energy Swirl](energy_swirl)
 - [Force Particle Render](force_particle_render)
+- [Invert Instant Effects](invert_instant_effects)
 - [Mobs Ignore](mobs_ignore)
 - [Rocket Jump](rocket_jump)
 - [Set Texture](set_texture)

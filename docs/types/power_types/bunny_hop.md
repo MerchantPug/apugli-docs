@@ -7,7 +7,7 @@ date: 2021-07-13
 
 [Power Type](../power_types.md).
 
-An active power that adds movement velocity to the player whenever they aren't on the ground, in water, in lava, in a vehicle (boat, horse, etc) or fall flying.
+Adds movement velocity to the player whenever they aren't on the ground, in water, in lava, in a vehicle (boat, horse, etc) or fall flying.
 
 Type ID: `apugli:bunny_hop`
 

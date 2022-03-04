@@ -7,7 +7,7 @@ date: 2022-03-05
 
 [Power Type](../power_types.md).
 
-A power that renders an item on an entity as if it were worn by them.
+Renders an item on an entity as if it were worn by them.
 
 Type ID: `apugli:modify_equipped_item_render`
 
