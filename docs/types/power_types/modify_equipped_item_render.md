@@ -3,7 +3,7 @@ title: Modify Equipped Item Render (Power Type)
 date: 2021-04-03
 ---
 
-# Wearable Item
+# Modify Equipped Item Render
 
 [Power Type](../power_types.md).
 
