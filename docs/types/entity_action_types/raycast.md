@@ -13,7 +13,7 @@ Type ID: `apugli:raycast`
 
 !!! note
 
-    If the `distance` field is not set, the distance of the raycast will be dependant on the entity's reach and attack range for blocks and entities respectively.
+    If the `distance` field is not set, the distance of the raycast will be dependent on the entity's reach and attack range for blocks and entities respectively.
 
     Reach defaults to 5.0 in creative mode and 4.5 outside of creative mode.
     Attack Range defaults to 6.0 in creative mode and 3.0 outside of creative mode.
