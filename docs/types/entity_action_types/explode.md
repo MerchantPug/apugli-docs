@@ -16,7 +16,7 @@ Type ID: `apugli:explode`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`power` | [Float](../data_types/float.md) | | Determines the power of the explosion.
+`power` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | | Determines the power of the explosion.
 `destruction_type` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | `"break"` | Determines if the explosion should destroy the terrain, destroy the terrain and drop the loot of the blocks, or none (`"destroy"`, `"break"` or `"none"` respectively).
 `damage_self` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/data_types/boolean/) | `true` | Determines if the player should take damage from the summoned explosion.
 `indestructible` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | _optional_ | If specified, the blocks that fulfills the specified block condition type is not destroyed by the summoned explosion.
