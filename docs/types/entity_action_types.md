@@ -5,7 +5,7 @@ date: 2022-01-08
 
 # Entity Actions
 
-"Entity Conditions operate on a `LivingEntity`, which also allows access to the world. These are available to be used in most powers in the `condition` field, which restricts when a power is active." - Origins Documentation
+Entity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. [Exhaust (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/exhaust/) only works on a `PlayerEntity`, as other entities do not have a hunger bar). These are available to power/action types that provides a `entity_action` object field.
 
 ## Apugli
 - [Explode](explode)
