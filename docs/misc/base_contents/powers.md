@@ -20,8 +20,8 @@ date: 2021-06-21
 * [**Husk of a Former Self:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/no_helmet_burn.json) `toomanyorigins:no_helmet_burn`
 * [**Infused Veins:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/wither_immunity.json) `toomanyorigins:wither_immunity`
 * [**Lacerated Liver:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/lacerated_liver.json) `toomanyorigins:lacerated_liver`
-* [**Large Leap:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/large_leap.json) `toomanyorigins:large_leap`
 * [**Lightweight:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/lightweight.json) `toomanyorigins:lightweight`
+* [**Moon Leap:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/large_leap.json) `toomanyorigins:large_leap`
 * [**Opposite Day:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/opposite_day.json) `toomanyorigins:opposite_day`
 * [**Overheat:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/overheat.json) `toomanyorigins:overheat`
 * [**Photophobia:**](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/photophobia.json) `toomanyorigins:photophobia`
@@ -40,6 +40,7 @@ date: 2021-06-21
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/bunny_hop_active.json) `toomanyorigins:bunny_hop_active`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/burn_timer.json) `toomanyorigins:burn_timer`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/damage_helmet_when_in_sun.json) `toomanyorigins:damage_helmet_when_in_sun`
+* [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/lucky_footing.json) `toomanyorigins:lucky_footing`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/soul_shield_overlay.json) `toomanyorigins:soul_shield_overlay`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/undead_callback.json) `toomanyorigins:undead_callback`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/undead_immunities.json) `toomanyorigins:undead_immunities`
