@@ -9,3 +9,4 @@ date: 2022-01-08
 ## Apugli-specific
 - [Food Component](food_component)
 - [Status Effect Chance](status_effect_chance)
+- [Weighted Sound Event](weighted_sound_event)
