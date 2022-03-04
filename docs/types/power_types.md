@@ -29,6 +29,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 #### Modifying Types
 - [Modify Block Placed](modify_block_placed)
+- [Modify Equipped Item Render](modify_equipped_item_render)
 - [Modify Soul Speed](modify_soul_speed)
 
 ## TooManyOrigins
