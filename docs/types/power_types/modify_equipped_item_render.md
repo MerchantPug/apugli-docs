@@ -1,6 +1,6 @@
 ---
 title: Modify Equipped Item Render (Power Type)
-date: 2021-04-03
+date: 2022-03-05
 ---
 
 # Modify Equipped Item Render
