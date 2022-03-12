@@ -3,7 +3,7 @@ title: Action On Bonemeal (Power Type)
 date: 2022-02-06
 ---
 
-#   Action On Bonemeal
+# Action On Bonemeal
 
 [Power Type](../power_types.md)
 

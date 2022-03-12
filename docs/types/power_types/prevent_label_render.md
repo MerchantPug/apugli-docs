@@ -1,5 +1,5 @@
 ---
-title: Prevent Label Render (Power Types)
+title: Prevent Label Render (Power Type)
 date: 2022-02-18
 ---
 

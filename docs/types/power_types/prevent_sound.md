@@ -1,5 +1,5 @@
 ---
-title: Prevent Sound (Power Types)
+title: Prevent Sound (Power Type)
 date: 2022-02-19
 ---
 

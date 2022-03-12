@@ -2,12 +2,14 @@
 title: Mobs Ignore (Power Type)
 date: 2021-10-08
 ---
+
 # Mobs Ignore
+
 [Power Type](../power_types.md)
 
 Makes hostile mobs ignore the player.
 
-Type ID: `apugli:mob_ignore`
+Type ID: `apugli:mobs_ignore`
 
 ### Fields
 Field | Type | Default | Description
@@ -18,7 +20,7 @@ Field | Type | Default | Description
 ### Example
 ```json
 {
-    "type": "apugli:mob_ignore",
+    "type": "apugli:mobs_ignore",
     "mob_condition": {
         "type": "apoli:entity_type",
         "entity_type": "minecraft:skeleton"
