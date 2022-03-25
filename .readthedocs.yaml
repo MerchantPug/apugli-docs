@@ -9,5 +9,5 @@ mkdocs:
   configuration: mkdocs.yml
 
 python:
-  - install:
+  install:
     - requirements: requirements.txt
