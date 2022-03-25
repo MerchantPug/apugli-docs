@@ -19,6 +19,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Custom Footstep](custom_footstep)
 - [Custom Hurt Sound](custom_hurt_sound)
 - [Edible Item](edible_item)
+- [Effect Whitelist](effect_whitelist)
 - [Energy Swirl](energy_swirl)
 - [Force Particle Render](force_particle_render)
 - [Invert Instant Effects](invert_instant_effects)
@@ -39,6 +40,8 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Modify Soul Speed](modify_soul_speed)
 
 #### Preventing types
+- [Prevent Bee Anger](prevent_bee_anger)
+- [Prevent Breeding](prevent_breeding)
 - [Prevent Label Render](prevent_label_render)
 - [Prevent Sound](prevent_sound)
 
