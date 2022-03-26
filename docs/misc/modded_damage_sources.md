@@ -4,11 +4,6 @@ date: 2021-06-21
 ---
 # List of modded damage source names
 
-## Origins
-Name | Description
------|-------------
-`no_water_for_gills` | damage for Merling running out of oxygen.
-
 ## Apugli
 Name | Description
 -----|-------------
