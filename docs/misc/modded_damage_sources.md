@@ -4,11 +4,6 @@ date: 2021-06-21
 ---
 # List of modded damage source names
 
-## Apugli
-Name | Description
------|-------------
-`jumpExplosion.player` | explosions from the `apugli:rocket_jump` power type.
-
 ## TooManyOrigins
 Name | Description
 -----|-------------
