@@ -15,8 +15,7 @@ Type ID: `apugli:destroy`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-*None.*
-
+`drop_block` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | | Whether the block is dropped upon destroying it.
 
 ### Example
 ```json
@@ -26,4 +25,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This block action destroys the block that called this action.
+This block action destroys the block that called this action, no item is dropped from it.
