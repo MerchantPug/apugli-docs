@@ -19,7 +19,7 @@ Type ID: `apugli:modify_equipped_item_render`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`equipment_slot` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | | Which equipment slot to render the item at. One of: `"mainhand"`, `"offhand"`, `"head"`, `"chest"`, `"legs"`, `"feet"`.
+`slot` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | | Which equipment slot to render the item at. One of: `"mainhand"`, `"offhand"`, `"head"`, `"chest"`, `"legs"`, `"feet"`.
 `stack` | [Item Stack](https://origins.readthedocs.io/en/latest/types/data_types/item_stack/) |  | The item stack to render on the entity's head.
 `scale` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The scale to render the item stack if this is rendering on the player's head. (This does not effect helmets)
 `override` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Determines whether the power overrides existing equipment from rendering.
