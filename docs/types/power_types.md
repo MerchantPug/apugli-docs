@@ -35,6 +35,8 @@ Unless stated otherwise, each power type supports a condition field that can che
 
 #### Modifying types
 - [Modify Block Placed](modify_block_placed)
+- [Modify Enchantment Damage Dealt](modify_enchantment_damage_dealt)
+- [Modify Enchantment Damage Taken](modify_enchantment_damage_taken)
 - [Modify Enchantment Level](modify_enchantment_level)
 - [Modify Equipped Item Render](modify_equipped_item_render)
 - [Modify Soul Speed](modify_soul_speed)
