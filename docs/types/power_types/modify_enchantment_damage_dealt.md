@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 `target_condition` | [Entity Condition Type](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If specified, the specified base value with the modifier(s) applied and/or action(s) will only be applied if the entity/entities that has been hit fulfills this condition.
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the base value. Modifiers will be applied as many times as `enchantment_level - 1` the power holder has of the specified enchantment.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the base value. Modifiers will be applied as many times as `enchantment_level - 1` the power holder has of the specified enchantment.
-`bientity_action` | [Bi-entity Action Type]https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, this bi-entity action type will be executed on either or both 'actor' (the entity that has the power) and 'target' (the entity that has been hit).
+`bientity_action` | [Bi-entity Action Type](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, this bi-entity action type will be executed on either or both 'actor' (the entity that has the power) and 'target' (the entity that has been hit).
 
 ### Example
 ```json
