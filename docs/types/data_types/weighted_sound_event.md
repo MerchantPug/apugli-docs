@@ -2,17 +2,18 @@
 title: Weighted Sound Event (Data Type)
 date: 2022-02-19
 ---
-# Item Stack
+# Weighted Sound Event
 
 [Data Type](../data_types.md).
 
-Either a [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) that defines the sound event or an [Object](https://origins.readthedocs.io/en/latest/types/data_types/object/) which defines a sound event with weight.
+Either a [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) that defines the sound event or an [Object](https://origins.readthedocs.io/en/latest/types/data_types/object/) which defines a sound event with volume and pitch alongside weight.
 
 ### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The namespace and ID of the sound to play.
+`sound` | [Sound Event With Volume and Pitch](sound_event_with_volume_and_pitch.md) | | The namespace and ID of the sound to play along with pitch and volume.
+`sounds` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Sound Event With Volume and Pitch](sound_event_with_volume_and_pitch.md) | | The namespace and ID of the sounds to play along with pitch and volume.
 `weight` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The weight for the sound effect to play in a randomiser. The higher this is, the more likely it'll be selected.
 
 ### Examples:

@@ -20,7 +20,7 @@ Type ID: `apugli:particle_in_radius`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `particle` | [Particle Effect](https://origins.readthedocs.io/en/latest/types/data_types/particle_effect/) | *optional* | The particle effect to match with the checked particles.
-`particles` | [Array]([String](https://origins.readthedocs.io/en/latest/types/data_types/array/)) of [Particle Effects](https://origins.readthedocs.io/en/latest/types/data_types/particle_effect/) | *optional* | The particle effects to match with the checked particles.
+`particles` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Particle Effects](https://origins.readthedocs.io/en/latest/types/data_types/particle_effect/) | *optional* | The particle effects to match with the checked particles.
 `radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | | The radius to check the particles that match the specified particle effect within.
 `comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| `">="` | How the amount of particles within the specified radius which are the specified should be compared to the specified value.
 `compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The value to compare the amount to.
