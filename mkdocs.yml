@@ -1,7 +1,4 @@
 site_name: Apugli Documentation
-features:
-  - content.code.annotate
-  - navigation.expand
 nav:
   - Home: index.md
   - General Types:
@@ -41,12 +38,14 @@ theme:
         name: Switch to light mode  
   logo: images/logo.png
   favicon: images/logo.png
-  extra:
+extra:
     social:
       - icon: fontawesome/brands/github
         link: https://github.com/MerchantPug/apugli
+        name: Apugli GitHub
       - icon: fontawesome/brands/discord
         link: https://discord.gg/UBfEjsANNz
+        name: Pug's Modzone Discord
 markdown_extensions:
     - toc:
         separator: "_"
