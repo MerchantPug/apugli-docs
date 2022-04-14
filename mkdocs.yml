@@ -41,6 +41,12 @@ theme:
         name: Switch to light mode  
   logo: images/logo.png
   favicon: images/logo.png
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/MerchantPug/apugli
+      - icon: fontawesome/brands/discord
+        link: https://discord.gg/UBfEjsANNz
 markdown_extensions:
     - toc:
         separator: "_"
