@@ -35,4 +35,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This example will make target entities take `1.5 + ((enchantment_level - 1) * 2)` extra damage when hit by a weapon with the Sharpness enchantment.
+This example will make target entities take `1.5 * (enchantment_level * 2)` extra damage when hit by a weapon with the Sharpness enchantment.
