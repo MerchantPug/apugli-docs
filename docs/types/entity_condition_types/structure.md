@@ -1,11 +1,11 @@
 ---
-title: Structure (Entity Condition)
+title: Structure (Entity Condition Type)
 date: 2021-07-13
 ---
 
 # Structure
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks whether an entity is standing inside a specific structure or a structure that belongs to a specific tag.
 

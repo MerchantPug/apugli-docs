@@ -1,11 +1,11 @@
 ---
-title: Magic (Damage Condition)
+title: Magic (Damage Condition Type)
 date: 2021-06-20
 ---
 
 # Magic
 
-[Damage Condition](../damage_condition_types.md).
+[Damage Condition Type](../damage_condition_types.md).
 
 Checks whether the damage is magic damage (for example Splash Potions and Dragon Breath).
 

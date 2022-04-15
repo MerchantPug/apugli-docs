@@ -1,11 +1,11 @@
 ---
-title: Can Have Effect (Entity Condition)
+title: Can Have Effect (Entity Condition Type)
 date: 2021-08-03
 ---
 
 # Can Have Effect
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks whether the entity isn't immune to the specified status effect.
 

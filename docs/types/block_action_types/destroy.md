@@ -1,11 +1,11 @@
 ---
-title: Destroy (Block Action)
+title: Destroy (Block Action Type)
 date: 2021-08-19
 ---
 
 # Destroy
 
-[Block Action](../block_action_types.md).
+[Block Action Type](../block_action_types.md).
 
 A block action that destroys the block that calls this action, leaving particles behind.
 

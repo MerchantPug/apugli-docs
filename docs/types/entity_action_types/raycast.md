@@ -1,11 +1,11 @@
 ---
-title: Raycast (Entity Action)
+title: Raycast (Entity Action Type)
 date: 2021-08-19
 ---
 
 # Raycast
 
-[Entity Action](../entity_action_types.md).
+[Entity Action Type](../entity_action_types.md).
 
 An entity action that raycasts from an entity and performs actions based on what's specified.
 

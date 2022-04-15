@@ -1,11 +1,11 @@
 ---
-title: Compare Resource (Entity Condition)
+title: Key Pressed (Entity Condition Type)
 date: 2022-03-29
 ---
 
-# Compare Resource
+# Key Pressed
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks if the entity is actively using a keybind on their client.
 

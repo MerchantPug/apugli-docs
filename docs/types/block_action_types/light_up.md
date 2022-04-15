@@ -1,11 +1,11 @@
 ---
-title: Light Up (Block Action)
+title: Light Up (Block Action Type)
 date: 2021-08-19
 ---
 
 # Light Up
 
-[Block Action](../block_action_types.md).
+[Block Action Type](../block_action_types.md).
 
 A block action that lights up furnaces, campfires and brewing stands.
 

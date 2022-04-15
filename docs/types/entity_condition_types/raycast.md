@@ -1,11 +1,11 @@
 ---
-title: Looking At (Entity Condition)
+title: Looking At (Entity Condition Type)
 date: 2021-08-19
 ---
 
 # Looking At
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks whether a player entity is looking at a specific block or entity within their reach.
 

@@ -1,11 +1,11 @@
 ---
-title: Compare Resource (Entity Condition)
+title: Compare Resource (Entity Condition Type)
 date: 2022-03-29
 ---
 
 # Compare Resource
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Compares the value of two powers that use the [Resource (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/resource/) or a power type that has a built-in cooldown (using remaining ticks as the value).
 

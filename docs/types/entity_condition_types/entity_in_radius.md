@@ -1,11 +1,11 @@
 ---
-title: Entity In Radius (Entity Condition)
+title: Entity In Radius (Entity Condition Type)
 date: 2021-08-19
 ---
 
 # Entity In Radius
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks whether the player has a specified number of entities that match a specified entity condition in a specified radius. The radius originates at the center of the entity with this condition.
 

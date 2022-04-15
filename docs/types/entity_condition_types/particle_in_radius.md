@@ -1,11 +1,11 @@
 ---
-title: Particle in Radius (Entity Condition)
+title: Particle in Radius (Entity Condition Type)
 date: 2021-03-05
 ---
 
 # Particle In Radius
 
-[Entity Condition](../entity_condition_types.md).
+[Entity Condition Type](../entity_condition_types.md).
 
 Checks whether the player has a specified number of particles that match a specified particle effect(s) in a specified radius. The radius originates at the center of the entity with this condition.
 
