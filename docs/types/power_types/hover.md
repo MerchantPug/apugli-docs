@@ -7,7 +7,7 @@ date: 2022-03-05
 
 [Power Type](../power_types.md).
 
-Multiplies the Y velocity of the entity, effectively making them stationary on the Y axis.
+Multiplies the Y velocity of the entity by 0, effectively making them stationary on the Y axis.
 
 Type ID: `apugli:hover`
 
