@@ -24,7 +24,7 @@ Field  | Type | Default | Description
   "key": {
     "key": "key.use",
     "continuous": true
-}
+  }
 }
 ```
 This example checks if the entity is continually holding the `key.use` keybind.
