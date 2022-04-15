@@ -7,7 +7,7 @@ date: 2021-07-13
 
 [Entity Condition](../entity_condition_types.md).
 
-Checks whether an entity is standing inside a specific structure.
+Checks whether an entity is standing inside a specific structure or a structure that belongs to a specific tag.
 
 Type ID: `apugli:structure`
 
@@ -19,7 +19,8 @@ Type ID: `apugli:structure`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`structure` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) |  | ID of the structure the entity needs to be in to pass the check.
+`structure` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the structure the entity needs to be in to pass the check.
+`tag` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the tag of structures the entity needs to be in to pass the check.
 
 ### Example
 ```json

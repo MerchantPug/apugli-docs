@@ -11,6 +11,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Can Have Effect](can_have_effect)
 - [Compare Resource](compare_resource)
 - [Entity In Radius](entity_in_radius)
+- [Key Pressed](key_pressed)
 - [Join Invulnerability Ticks](join_invulnerability_ticks)
 - [Particle In Radius](particle_in_radius)
 - [Raycast](raycast)
