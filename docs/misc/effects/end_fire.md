@@ -4,7 +4,7 @@ date: 2021-08-03
 ---
 # End Fire
 
-[Status Effect](../misc/effects.md). 
+[Status Effect](../effects.md). 
 
 ID: `toomanyorigins:end_fire`
 

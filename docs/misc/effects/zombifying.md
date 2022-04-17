@@ -4,7 +4,7 @@ date: 2021-08-03
 ---
 # Zombifying (TooManyOrigins)
 
-[Status Effect](../misc/effects.md). 
+[Status Effect](../effects.md). 
 
 ID: `toomanyorigins:zombifying`
 

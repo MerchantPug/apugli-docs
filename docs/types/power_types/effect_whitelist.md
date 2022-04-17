@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-    "type": "origins:effect_whitelist",
+    "type": "apugli:effect_whitelist",
     "effects": [
         "minecraft:weakness",
         "minecraft:strength"

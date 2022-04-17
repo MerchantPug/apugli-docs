@@ -4,7 +4,7 @@ date: 2021-01-08
 ---
 # Charged (TooManyOrigins)
 
-[Status Effect](../misc/effects.md). 
+[Status Effect](../effects.md). 
 
 ID: `toomanyorigins:charged`
 
