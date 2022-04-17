@@ -34,4 +34,4 @@ Field  | Type | Default | Description
   }
 }
 ```
-This example will make the power holder take `1.5 + (enchantment_level * 2.5)` extra damage when hit by a weapon with the Smite enchantment.
+This example will make the power holder take `2.5 + (enchantment_level * 2.5)` extra damage when hit by a weapon with the Smite enchantment.
