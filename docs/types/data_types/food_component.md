@@ -2,7 +2,7 @@
 title: Food Component (Data Type)
 date: 2022-01-08
 ---
-# Item Stack
+# Food Component
 
 [Data Type](../data_types.md).
 

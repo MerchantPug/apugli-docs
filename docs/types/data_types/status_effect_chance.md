@@ -2,7 +2,7 @@
 title: Status Effect Chance (Data Type)
 date: 2022-01-08
 ---
-# Item Stack
+# Status Effect Chance
 
 [Data Type](../data_types.md).
 
