@@ -21,6 +21,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Edible Item](edible_item)
 - [Effect Whitelist](effect_whitelist)
 - [Energy Swirl](energy_swirl)
+- [Entity Texture Overlay](entity_texture_overlay)
 - [Force Particle Render](force_particle_render)
 - [Hover](hover)
 - [Invert Instant Effects](invert_instant_effects)
