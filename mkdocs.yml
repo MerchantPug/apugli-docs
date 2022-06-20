@@ -6,11 +6,11 @@ nav:
     - Data Types: types/data_types.md
     - Power Types: types/power_types.md
   - Condition Types:
-    - Damage Conditions: types/damage_condition_types.md
-    - Entity Conditions: types/entity_condition_types.md
+    - Damage Condition Types: types/damage_condition_types.md
+    - Entity Condition Types: types/entity_condition_types.md
   - Action Types:
-    - Block Actions: types/block_action_types.md
-    - Entity Actions: types/entity_action_types.md
+    - Block Action Types: types/block_action_types.md
+    - Entity Action Types: types/entity_action_types.md
   - Miscellaneous:
     - Base Contents: misc/base_contents.md
     - Modded Damage Sources: misc/modded_damage_sources.md
