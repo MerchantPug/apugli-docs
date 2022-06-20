@@ -11,10 +11,6 @@ Executes entity actions whenever an item either gains durability, loses durabili
 
 Type ID: `apugli:action_on_durability_change`
 
-!!! note
-
-    This power type does not trigger when you use `apoli:damage`, use `apugli:damage` instead.
-
 ### Fields
 
 Field  | Type | Default | Description
@@ -29,7 +25,7 @@ Field  | Type | Default | Description
 {
   "type": "apugli:action_on_durability_change",
   "item_condition": {
-    "type": "origins:ingredient",
+    "type": "apoli:ingredient",
     "ingredient": {
       "item": "minecraft:elytra"
     }
@@ -39,6 +35,7 @@ Field  | Type | Default | Description
     "power": 5,
     "destruction_type": "break",
     "damage_self": true
+  }
 }
 ```
 This example will cause an explosion whenever the power holder breaks an elytra.

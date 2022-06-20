@@ -33,11 +33,7 @@ Field  | Type | Default | Description
         "light_campfire": false,
         "particle": "minecraft:dragon_breath",
         "particle_count": 15,
-        "sound": "minecraft:entity.ender_dragon.shoot",
-        "key": {
-            "key": "key.origins.primary_active",
-            "continuous": false
-        }
+        "sound": "minecraft:entity.ender_dragon.shoot"
     }
 }
 ```
