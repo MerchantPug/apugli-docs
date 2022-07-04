@@ -46,22 +46,3 @@ date: 2021-06-21
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/undead_immunities.json) `toomanyorigins:undead_immunities`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/unholy.json) `toomanyorigins:unholy`
 * [*Hidden:*](https://github.com/MerchantPug/toomanyorigins/blob/master/src/main/resources/data/toomanyorigins/powers/zombify_hit.json) `toomanyorigins:zombify_hit`
-
-## CursedOrigins
-* [**Ailurophobia:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/ailurophobia.json) `cursedorigins:ailurophobia`
-* [**Axe Proficiency:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/axe_proficiency.json) `cursedorigins:axe_proficiency`
-* [**The Cake is a Lie:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/cake_is_a_lie.json) `cursedorigins:cake_is_a_lie`
-* [*The Cake is a Lie:*](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/cake_is_a_lie_items.json) `cursedorigins:cake_is_a_lie_items`
-* [**Cannon:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/cannon.json) `cursedorigins:cannon`
-* [**Calcium:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/status_immunity.json) `cursedorigins:status_immunity`
-* [**Explosion.gif**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/self_explode.json) `cursedorigins:self_explode`
-* [**Powerful Stride:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/cant_sprint.json) `cursedorigins:cant_sprint`
-* [**Comedy:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/comedy.json) `cursedorigins:comedy`
-* [**Delicious Dairy:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/delicious_dairy.json) `cursedorigins:delicious_dairy`
-* [**Glass:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/glass.json) `cursedorigins:glass`
-* [**Gluten Intolerance:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/gluten_intolerance.json) `cursedorigins:gluten_intolerance`
-* [**Mow Hay:**](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/mow_hay.json) `cursedorigins:mow_hay`
-* [*Hidden:*](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/charge.json) `cursedorigins:charge`
-* [*Hidden:*](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/hisses.json) `cursedorigins:hisses`
-* [*Hidden:*](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/inventory_eat_grass.json) `cursedorigins:inventory_eat_grass`
-* [*Hidden:*](https://github.com/MerchantPug/cursedorigins/blob/1.18/src/main/resources/data/cursedorigins/powers/this_is_a_secret_to_all.json) `cursedorigins:this_is_a_secret_to_all`
