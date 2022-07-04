@@ -11,4 +11,5 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 - [Explode (Apugli)](explode)
 - [Fire Projectile](fire_projectile)
 - [Raycast](raycast)
+- [Resource Transfer](resource_transfer)
 - [Zombify Villager](zombify_villager)
