@@ -20,7 +20,7 @@ You can alternatively visit [TooManyOrigins on CurseForge](https://www.curseforg
 * You are able to use the `ope` namespace for any Apugli powers. This is also true for `toomanyorigins` if you have it installed.
 
 ## TooManyOrigins Tags
-* Dragonborn gets which of the two abilities are used from the lightable tag. If you have any modded furnaces/campfires you are able to add them to the tag `(toomanyorigins/tags/blocks/lightable)`.
+* Dragonborn gets which of the two active powers are used from the lightable tag. If you have any modded furnaces/campfires you are able to add them to the tag `(toomanyorigins/tags/blocks/lightable)`.
 * If you would like to make an item not protect Undead when worn on their head you are able to add the item to the tag `(toomanyorigins/tags/items/ignore_head_slot)`. Nothing is in this tag by default.
 * Hare gets what is considered a carrot from the tag `(toomanyorigins/tags/items/carrots)`. If you have a modded carrot item or just want to give the hare a boost from eating something else you can add the food item to this tag.
 * Withered gets what is considered a regular seed through the `(toomanyorigins/tags/items/crop_seeds)` tag and gets what is considered a stem seed through the `(toomanyorigins/tags/items/stem_seeds)`.
