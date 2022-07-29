@@ -11,6 +11,8 @@ Modifies the entity's enchantment levels.
 
 Type ID: `apugli:modify_enchantment_level`
 
+!!! warning
+    This power type will crash your game if the `apoli:enchantment` entity or item condition is used.
 
 ### Fields
 
