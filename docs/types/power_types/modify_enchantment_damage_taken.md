@@ -7,7 +7,7 @@ date: 2022-03-05
 
 [Power Type](../power_types.md).
 
-Modifies how much melee damage the entity that has the power deals based on how many levels of enchantments the entity has.
+Modifies how much melee damage the entity that has the power takes based on how many levels of enchantments the attacker has.
 
 Type ID: `apugli:modify_enchantment_damage_taken`
 
