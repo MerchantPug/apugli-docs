@@ -9,7 +9,7 @@ date: 2022-03-29
 
 Checks the entity's velocity values.
 
-Type ID: `apugli:key_pressed`
+Type ID: `apugli:velocity`
 
 ### Fields
 
