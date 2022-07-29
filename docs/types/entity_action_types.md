@@ -12,4 +12,6 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 - [Fire Projectile](fire_projectile)
 - [Raycast](raycast)
 - [Resource Transfer](resource_transfer)
+- [Set No Gravity](set_no_gravity)
+- [Spawn Item](spawn_item)
 - [Zombify Villager](zombify_villager)
