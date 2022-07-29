@@ -29,7 +29,7 @@ Field  | Type | Default | Description
 ```json
 {
   "type": "apugli:modify_equipped_item_render",
-  "equipment_slot": "HEAD",
+  "slot": "HEAD",
   "stack": {
     "item": "minecraft:brown_carpet",
     "tag": "{CustomModelData:1}"
@@ -42,7 +42,7 @@ This example would render brown carpet with a CustomModelData of 1 at 1.5 scale 
 ```json
 {
   "type": "apugli:modify_equipped_item_render",
-  "equipment_slot": "MAINHAND",
+  "slot": "MAINHAND",
   "stack": {
     "item": "minecraft:diamond_sword"
   },
