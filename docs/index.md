@@ -16,7 +16,7 @@ You can alternatively visit [TooManyOrigins on CurseForge](https://www.curseforg
 ## General Information
 * If you would like to discuss anything on this wiki or discuss the mods, feel free to join the [Pug's Modzone Discord Server](https://discord.gg/UBfEjsANNz).
 * Thank you to UltrusBot for allowing me to use `moborigins:nearby_entities` from Mob Origins. I've expanded on this condition to make it more in line with `apoli:block_in_radius` but this condition saved me a lot of time early on.
-* Thank you to Mantarri for sparing me your wrath when I stole your code back in 1.16.5 CursedOrigins. Similar to what's stated above, I have since swapped out this code for my own code.
+* Thank you to Mantarri for sparing me your wrath when I illegally stole your code back in 1.16.5 CursedOrigins. Similar to what's stated above, I have since swapped out this code for my own code, no license breaking here.
 * You are able to use the `ope` namespace for any Apugli powers. This is also true for `toomanyorigins` if you have it installed.
 
 ## TooManyOrigins Tags
@@ -24,3 +24,8 @@ You can alternatively visit [TooManyOrigins on CurseForge](https://www.curseforg
 * If you would like to make an item not protect Undead when worn on their head you are able to add the item to the tag `(toomanyorigins/tags/items/ignore_head_slot)`. Nothing is in this tag by default.
 * Hare gets what is considered a carrot from the tag `(toomanyorigins/tags/items/carrots)`. If you have a modded carrot item or just want to give the hare a boost from eating something else you can add the food item to this tag.
 * Withered gets what is considered a regular seed through the `(toomanyorigins/tags/items/crop_seeds)` tag and gets what is considered a stem seed through the `(toomanyorigins/tags/items/stem_seeds)`.
+
+## Old Versions of this Documentation
+* [1.18.2 (Unfinished)](https://apugli.readthedocs.io/en/1.18.x/)
+* [1.17.x](https://apugli.readthedocs.io/en/1.17.x/)
+* [1.16.5 (Unfinished)](https://apugli.readthedocs.io/en/1.16.5/)

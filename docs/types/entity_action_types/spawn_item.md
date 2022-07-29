@@ -3,7 +3,7 @@ title: Spawn Item (Entity Action Type)
 date: 2022-07-29
 ---
 
-# Resource Transfer
+# Spawn Item
 
 [Entity Action Type](../entity_action_types.md).
 

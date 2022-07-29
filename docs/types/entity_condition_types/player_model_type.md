@@ -19,13 +19,13 @@ Type ID: `apugli:player_model_type`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`model_type` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | | The model type to check for. Can be either `DEFAULT` OR `SLIM`.
+`model_type` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | | The model type to check for. Can be either `"default"` OR `"slim`.
 
 ### Example
 ```json
 "condition": {
   "type": "apugli:entity_in_radius",
-  "model_type": "DEFAULT"
+  "model_type": "default"
 }
 ```
-This condition checks whether the `AbstractClientPlayerEntity` has a `DEFAULT` (Steve) player model type.
+This condition checks whether the `AbstractClientPlayerEntity` has a default (Steve) player model type.
