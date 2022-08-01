@@ -27,11 +27,11 @@ Field  | Type | Default | Description
 {
   "type": "apugli:modify_enchantment_damage_taken",
   "enchantment": "minecraft:smite",
-  "base_value": 2.5,
+  "base_value": 1.5,
   "modifier": {
     "operation": "addition",
     "value": 2.5
   }
 }
 ```
-This example will make the power holder take `2.5 + (enchantment_level * 2.5)` extra damage when hit by a weapon with the Smite enchantment.
+This example will make the power holder take `1.5 + (enchantment_level * 2.5)` extra damage when hit by a weapon with the Smite enchantment.

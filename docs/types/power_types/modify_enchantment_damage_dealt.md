@@ -31,8 +31,8 @@ Field  | Type | Default | Description
   "base_value": 2.5,
   "modifier": {
         "operation": "multiply_base",
-        "value": 2.5
+        "value": 2
     }
 }
 ```
-This example will make target entities take `2.5 + (enchantment_level * 2.5)` extra damage when hit by a weapon with the Sharpness enchantment.
+This example will make target entities take `2.5 * (enchantment_level * 2)` extra damage when hit by a weapon with the Sharpness enchantment.
