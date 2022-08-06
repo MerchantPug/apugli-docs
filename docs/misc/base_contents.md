@@ -8,5 +8,6 @@ date: 2022-01-08
 Base Contents are JSON files that are added by the mod by default. These JSON files can be over-ridden with datapacks by having the said JSON files in a datapack, and adding a `loading_priority` integer field in the JSON file with a value of greater than `0`.
 
 ### List
-*   [Origins](base_contents/origins.md)
-*   [Powers](base_contents/powers.md)
+* [Origins](base_contents/origins.md)
+* [Powers](base_contents/powers.md)
+* [Tags](base_contents/tags.md)

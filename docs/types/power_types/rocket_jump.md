@@ -20,10 +20,17 @@ Field  | Type | Default | Description
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/types/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
 `source` | [Damage Source](https://origins.readthedocs.io/en/latest/types/data_types/damage_source/) | *optional* | If set, this is the damage source that will be used to deal damage to the entity upon using this ability.
 `amount` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional*| How much damage will be dealt upon using this ability.
-`speed` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The speed of the velocity applied to the player in the opposite direction they are facing when using this power.
-`use_charged` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Determines if the power should use either the `toomanyorigins:charged` or `cursedorigins:charged` status effect to increase the velocity of the jump and explosion radius of this power (This requires either of the two mods to use this but this power will function normally without either mod).
-`charged_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the speed of the rocket jump when the entity is charged (See `use_charged` field description for charged criteria).
-`charged_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the speed of the rocket jump when the entity is charged (See `use_charged` field description for charged criteria).
+`velocity` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The velocity applied to the player in the opposite direction they are facing when using this power.
+`horizontal_velocity` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | The velocity applied to the player in the opposite direction they are facing on horizontal axes when using this power. If not set, this will be set to the value of the `velocity` float field.
+`vertical_velocity` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | The velocity applied to the player in the opposite direction on the vertical axis they are facing when using this power. If not set, this will be set to the value of the `velocity` float field.
+`velocity_clamp_multiplier` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.8` | The amount to multiply by the current base amount to clamp the velocity gained from this power to.
+`use_charged` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Determines if the power should use either the `toomanyorigins:charged` status effect to increase the velocity of the jump and explosion radius of this power (This requires either of the two mods to use this but this power will function normally without either mod).
+`charged_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the velocity of the rocket jump when the entity is charged (See `use_charged` field description for charged criteria).
+`charged_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the velocity of the rocket jump when the entity is charged (See `use_charged` field description for charged criteria).
+`water_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the velocity of the rocket jump when the entity is touching water.
+`water_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the velocity of the rocket jump when the entity is touching water.
+`damage_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the damage of the explosion caused by the rocket jump.
+`damage_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the damage of the explosion caused by the rocket jump.
 `key` | [Key](https://origins.readthedocs.io/en/latest/types/data_types/key/) | | Which active key this power should respond to.
 
 ### Example
@@ -52,7 +59,7 @@ Field  | Type | Default | Description
   },
   "amount": 2.0,
   "should_use_charged": true,
-  "speed": 1.0
+  "velocity": 1.0
 }
 ```
 This power allows a player to launch themself through the air by pressing the use key while taking 1 heart of armor bypassing, unblockable fire damage named overheat. This ability considers the Charged status effect from TooManyOrigins and CursedOrigins and will modify the speed of the velocity application by 1.5x the regular amount.
