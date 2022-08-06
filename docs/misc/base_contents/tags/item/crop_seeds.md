@@ -6,7 +6,7 @@ date: 2022-08-06
 
 [Item Tag](../tags.md).
 
-Defines items thats placed block is replaced by a Withered Crop when placed by a player with the [Withered](../origins/withered.md) origin.
+Defines items thats placed block is replaced by a Withered Crop when placed by a player with the [Withered](../../origins/withered.md) origin.
 
 Location: `toomanyorigins/tags/items/crop_seeds`
 

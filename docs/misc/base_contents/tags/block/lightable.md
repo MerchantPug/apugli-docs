@@ -6,7 +6,7 @@ date: 2022-08-06
 
 [Block Tag](../tags.md).
 
-Defines which blocks a player with the [Dragonborn](../origins/dragonborn.md) origin has to look at to activate the Wyrmsmith's Touch power.
+Defines which blocks a player with the [Dragonborn](../../origins/dragonborn.md) origin has to look at to activate the Wyrmsmith's Touch power.
 
 Location: `toomanyorigins/tags/blocks/lightable`
 

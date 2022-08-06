@@ -6,7 +6,7 @@ date: 2022-08-06
 
 [Item Tag](../tags.md).
 
-Defines what doesn't protect a player with the [Undead](../origins/undead.md) origin from the sun.
+Defines what doesn't protect a player with the [Undead](../../origins/undead.md) origin from the sun.
 
 Location: `toomanyorigins/tags/items/ignore_head_slot`
 
