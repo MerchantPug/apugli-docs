@@ -21,6 +21,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
+  "type": "apugli:key_pressed",
   "key": {
     "key": "key.use",
     "continuous": true
