@@ -24,10 +24,12 @@ Field  | Type | Default | Description
 
 ### Example
 ```json
-"bientity_condition": {
-  "type": "apugli:hits_on_target",
-  "comparison": "==",
-  "compare_to": 0
+{
+    "bientity_condition": {
+        "type": "apugli:hits_on_target",
+        "comparison": "==",
+        "compare_to": 0
+    }
 }
 ```
 This example checks if the actor has not hit the target.

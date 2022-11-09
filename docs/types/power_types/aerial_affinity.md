@@ -18,6 +18,6 @@ Type ID: `apugli:aerial_affinity`
 ### Example
 ```json
 {
-  "type": "apugli:aerial_affinity"
+    "type": "apugli:aerial_affinity"
 }
 ```

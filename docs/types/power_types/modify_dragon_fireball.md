@@ -24,15 +24,15 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "toomanyorigins:modify_dragon_fireball",
-  "modifier": {
-    "name": "Extra damage for dragon fireball",
-    "operation": "addition",
-    "value": 3.0
-  },
-  "min_radius": 4.0,
-  "max_radius": 2.0,
-  "duration": 20
+    "type": "toomanyorigins:modify_dragon_fireball",
+    "modifier": {
+        "name": "Extra damage for dragon fireball",
+        "operation": "addition",
+        "value": 3.0
+    },
+    "min_radius": 4.0,
+    "max_radius": 2.0,
+    "duration": 20
 }
 ```
 This power makes dragon fireballs last for 1 second, start with an 8 block diameter, end with a 4 block diameter and deal 1.5 more hearts of damage.

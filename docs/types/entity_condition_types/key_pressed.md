@@ -21,11 +21,11 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:key_pressed",
-  "key": {
-    "key": "key.use",
-    "continuous": true
-  }
+    "type": "apugli:key_pressed",
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
 }
 ```
 This example checks if the entity is continually holding the `key.use` keybind.

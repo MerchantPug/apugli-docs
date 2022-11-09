@@ -4,7 +4,7 @@ date: 2021-08-19
 ---
 # Hare
 
-[Origin](../origins.md).
+[Origin](../,,/origins.md).
 
 A race of burrow dwelling rabbits that had attained a level of awareness akin to humans. They inherited their proficient mobility.
 
@@ -18,6 +18,6 @@ Bunny Hop | `toomanyorigins:bunny_hop` | You build up momentum while in the air 
 *hidden* | `toomanyorigins:bunny_hop_active` | *none* | This active power (default: G) adds 10 velocity updates (16.67% of the maximum (60)) to your current amount of velocity updates. This active power has a cooldown of 30 seconds and may not be used when your velocity is at its maximum value.
 Photophobia | `toomanyorigins:photophobia` | You are unable to sleep in bright light. | You cannot sleep in a bed that is placed in a light level above 9.
 Sugary Delicacy | `toomanyorigins:sugary_delicacy` | Eating carrots and golden carrots fills your bunny hop momentum up to a quarter. | Consuming items in the `toomanyorigins:carrots` tag fills your `toomanyorigins:bunny_hop` resource to 25% full if it is lower.
-Moon Leap | `toomanyorigins:large_leap` | While sneaking your jump height has increases. | While sneaking you can jump about 3 blocks high.
+Moon Leap | `toomanyorigins:large_leap` | While sneaking your jump height is increased. | While sneaking you can jump about 3 blocks high.
 Lightweight | `toomanyorigins:lightweight` | You have 2 less hearts of health than humans. | You have 8 hearts.
 Vegetarian | `origins:vegetarian` | You can't digest any meat | You cannot eat food items defined in the tag origins:meat, unless they are also defined in the `origins:ignore_diet` tag.

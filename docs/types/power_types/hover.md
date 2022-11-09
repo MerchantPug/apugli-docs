@@ -18,6 +18,6 @@ Type ID: `apugli:hover`
 ### Example
 ```json
 {
-  "type": "apugli:hover"
+    "type": "apugli:hover"
 }
 ```

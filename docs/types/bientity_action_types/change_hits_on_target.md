@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "bientity_action": {
-  "type": "apugli:change_hits_on_target",
-  "change": 0,
-  "operation": "set"
+    "type": "apugli:change_hits_on_target",
+    "change": 0,
+    "operation": "set"
 }
 ```
 This example sets the amount of times the actor has hit the target to 0.

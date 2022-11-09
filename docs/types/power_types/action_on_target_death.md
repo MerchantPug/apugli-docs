@@ -1,9 +1,9 @@
 ---
-title: Action On Block Placed (Power Type)
-date: 2021-02-06
+title: Action On Target Death (Power Type)
+date: 2021-08-11
 ---
 
-# Action On Block Placed
+# Action On Target Death
 
 [Power Type](../power_types.md)
 

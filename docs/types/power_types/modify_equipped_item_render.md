@@ -28,25 +28,25 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:modify_equipped_item_render",
-  "slot": "HEAD",
-  "stack": {
-    "item": "minecraft:brown_carpet",
-    "tag": "{CustomModelData:1}"
-  },
-  "scale": 1.5
+    "type": "apugli:modify_equipped_item_render",
+    "slot": "HEAD",
+    "stack": {
+        "item": "minecraft:brown_carpet",
+        "tag": "{CustomModelData:1}"
+    },
+    "scale": 1.5
 }
 ```
 This example would render brown carpet with a CustomModelData of 1 at 1.5 scale on the entity's head.
 
 ```json
 {
-  "type": "apugli:modify_equipped_item_render",
-  "slot": "MAINHAND",
-  "stack": {
-    "item": "minecraft:diamond_sword"
-  },
-  "override": true
+    "type": "apugli:modify_equipped_item_render",
+    "slot": "MAINHAND",
+    "stack": {
+        "item": "minecraft:diamond_sword"
+    },
+    "override": true
 }
 ```
 This example would render a diamond sword in the entity's hand overriding any existing item in the entity's hand.

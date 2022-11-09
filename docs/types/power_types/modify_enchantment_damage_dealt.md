@@ -26,10 +26,10 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:modify_enchantment_damage_dealt",
-  "enchantment": "minecraft:sharpness",
-  "base_value": 2.5,
-  "modifier": {
+    "type": "apugli:modify_enchantment_damage_dealt",
+    "enchantment": "minecraft:sharpness",
+    "base_value": 2.5,
+    "modifier": {
         "operation": "multiply_base",
         "value": 2
     }

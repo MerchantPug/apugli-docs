@@ -24,8 +24,8 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:entity_in_radius",
-  "model_type": "default"
+    "type": "apugli:entity_in_radius",
+    "model_type": "default"
 }
 ```
 This condition checks whether the `AbstractClientPlayerEntity` has a default (Steve) player model type.

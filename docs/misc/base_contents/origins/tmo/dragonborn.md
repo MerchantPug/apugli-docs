@@ -4,7 +4,7 @@ date: 2021-06-20
 ---
 # Dragonborn
 
-[Origin](../origins.md).
+[Origin](../,,/origins.md).
 
 Half Human, Half Dragon. Whilst they lack the teleportation abilities of the Enderian, their ferocious breath and structure makes the inhabitants of The End bow before them.
 

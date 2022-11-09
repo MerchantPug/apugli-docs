@@ -22,14 +22,14 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:energy_swirl",
-  "texture_location": "minecraft:textures/entity/wither/wither_armor.png",
-  "speed": 0.01,
-  "condition": {
-    "type": "origins:relative_health",
-    "comparison": "<=",
-    "compare_to": 0.5
-  }
+    "type": "apugli:energy_swirl",
+    "texture_location": "minecraft:textures/entity/wither/wither_armor.png",
+    "speed": 0.01,
+    "condition": {
+        "type": "origins:relative_health",
+        "comparison": "<=",
+        "compare_to": 0.5
+    }
 }
 ```
 This power will render the Wither Armor overlay at 0.01 speed (Charged Creeper overlay speed) when the player's health is 50% or less.

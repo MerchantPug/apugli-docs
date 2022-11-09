@@ -26,11 +26,11 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "axes": [
-    "y"
-  ],
-  "compare_to": 4,
-  "comparison": "<="
+    "axes": [
+        "y"
+    ],
+    "compare_to": 4,
+    "comparison": "<="
 }
 ```
 This example checks if the entity's y velocity is lesser than or equal to 4.

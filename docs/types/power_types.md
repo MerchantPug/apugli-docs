@@ -29,10 +29,12 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Set Texture](set_texture)
 
 #### Action-related
-- [Action on Block Placed](action_on_block_placed)
-- [Action on Bonemeal](action_on_bonemeal)
-- [Action on Durability Change](action_on_durability_change)
-- [Action on Equip](action_on_equip)
+- [Action On Block Placed](action_on_block_placed)
+- [Action On Bonemeal](action_on_bonemeal)
+- [Action On Durability Change](action_on_durability_change)
+- [Action On Equip](action_on_equip)
+- [Action On Tame Hit](action_on_tame_hit)
+- [Action When Tame Hit](action_when_tame_hit)
 
 #### Modifying types
 - [Modify Block Placed](modify_block_placed)

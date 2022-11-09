@@ -34,11 +34,11 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:block_looking_at",
-  "block_condition": {
-    "type": "apoli:block",
-    "block": "minecraft:grass_block"
-  }
+    "type": "apugli:block_looking_at",
+    "block_condition": {
+        "type": "apoli:block",
+        "block": "minecraft:grass_block"
+    }
 }
 ```
 This condition applied to a power will make sure it's only active while the player is looking at a grass block.

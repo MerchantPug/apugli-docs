@@ -21,9 +21,9 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:set_texture",
-  "texture_location": "apugli:textures/test.png",
-  "player_model": "default"
+    "type": "apugli:set_texture",
+    "texture_location": "apugli:textures/test.png",
+    "player_model": "default"
 }
 ```
 This power sets an entity's base texture to test.png, this texture is located in the textures folder in the apugli namespace.

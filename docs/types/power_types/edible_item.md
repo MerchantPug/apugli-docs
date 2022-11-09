@@ -1,20 +1,20 @@
----
-title: Edible Item (Power Type)
-date: 2021-08-19
----
+    ---
+    title: Edible Item (Power Type)
+    date: 2021-08-19
+    ---
 
-# Edible Item
+    # Edible Item
 
-[Power Type](../power_types.md).
+    [Power Type](../power_types.md).
 
-A power that makes any item that matches an item condition edible.
+    A power that makes any item that matches an item condition edible.
 
-Type ID: `apugli:edible_item`
+    Type ID: `apugli:edible_item`
 
-### Fields
+    ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
+    Field  | Type | Default | Description
+    -------|------|---------|-------------
 `item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/) |  | The item condition that items must satisfy to be affected by this power.
 `food_component` | [Food Component](../data_types/food_component.md) | | The food component that the item grants upon eating it.
 `use_action` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | *optional* | The action to associate with the player. One of `eat` or `drink`. Defaults to eat when null.
@@ -26,23 +26,23 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:edible_item",
-  "item_condition": {
-    "type": "apoli:ingredient",
-    "ingredient": {
-      "item": "minecraft:axolotl_bucket"
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "apoli:ingredient",
+        "ingredient": {
+            "item": "minecraft:axolotl_bucket"
+        }
+    },
+    "food_component": {
+        "hunger": 4,
+        "saturation": 1,
+        "meat": true
+    },
+    "use_action": "eat",
+    "return_stack": {
+        "item": "minecraft:water_bucket",
+        "amount": 1
     }
-  },
-  "food_component": {
-    "hunger": 4,
-    "saturation": 1,
-    "meat": true
-  },
-  "use_action": "eat",
-  "return_stack": {
-    "item": "minecraft:water_bucket",
-    "amount": 1
-  }
 }
 ```
 This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 1 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.

@@ -26,10 +26,10 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:compare_resource",
-  "resource": "apugli:test_resource_one",
-  "compare_to": "apugli:test_resource_two",
-  "comparison": "<="
+    "type": "apugli:compare_resource",
+    "resource": "apugli:test_resource_one",
+    "compare_to": "apugli:test_resource_two",
+    "comparison": "<="
 }
 ```
 This example checks if an entity's value of `apugli:test_resource_one` resource power is less than or equal to the value of its `apugli:test_resource_two` resource power.

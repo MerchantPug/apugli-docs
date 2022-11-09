@@ -24,14 +24,14 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:entity_in_radius",
-  "condition": {
-    "type": "apoli:entity_type",
-    "entity_type": "minecraft:creeper"
-  },
-  "radius": 5.0,
-  "comparison": ">=",
-  "compare_to": 1
+    "type": "apugli:entity_in_radius",
+    "condition": {
+        "type": "apoli:entity_type",
+        "entity_type": "minecraft:creeper"
+    },
+    "radius": 5.0,
+    "comparison": ">=",
+    "compare_to": 1
 }
 ```
 This condition checks whether the entity is near at least one creeper within 5x the size of their hurtbox.

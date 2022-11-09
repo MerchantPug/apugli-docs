@@ -21,12 +21,13 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:prevent_breeding",
-  "bientity_condition": {
-    "type": "origins:target_condition",
-    "condition": {
-       "type": "origins:tamed",
-       "inverted": true
+    "type": "apugli:prevent_breeding",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:tamed",
+            "inverted": true
+        }
     }
 }
 ```

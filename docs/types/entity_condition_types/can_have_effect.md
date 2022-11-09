@@ -20,9 +20,9 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:can_have_effect",
-  "effect": "minecraft:wither",
-  "inverted": true
+    "type": "apugli:can_have_effect",
+    "effect": "minecraft:wither",
+    "inverted": true
 }
 ```
 This example checks if the entity is immune to the wither effect.

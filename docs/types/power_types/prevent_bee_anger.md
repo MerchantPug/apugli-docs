@@ -18,6 +18,6 @@ Type ID: `apugli:prevent_bee_anger`
 ### Example
 ```json
 {
-  "type": "apugli:prevent_bee_anger"
+    "type": "apugli:prevent_bee_anger"
 }
 ```

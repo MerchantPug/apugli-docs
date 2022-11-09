@@ -18,8 +18,10 @@ Type ID: `apugli:magic`
 
 ### Example
 ```json
-"damage_condition": {
-  "type": "apugli:magic"
+{
+    "damage_condition": {
+        "type": "apugli:magic"
+    }
 }
 ```
 This example checks if the damage taken/dealt is considered magic damage.

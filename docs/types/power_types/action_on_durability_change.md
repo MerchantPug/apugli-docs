@@ -1,9 +1,9 @@
 ---
-title: Action on Durability Change (Power Type)
+title: Action On Durability Change (Power Type)
 date: 2022-03-05
 ---
 
-# Action on Durability Change
+# Action On Durability Change
 
 [Power Type](../power_types.md).
 
@@ -23,19 +23,19 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:action_on_durability_change",
-  "item_condition": {
+    "type": "apugli:action_on_durability_change",
+    "item_condition": {
     "type": "apoli:ingredient",
     "ingredient": {
-      "item": "minecraft:elytra"
+        "item": "minecraft:elytra"
+        }
+    },
+    "break_action": {
+        "type": "apoli:explode",
+        "power": 5,
+        "destruction_type": "break",
+        "damage_self": true
     }
-  },
-  "break_action": {
-    "type": "apoli:explode",
-    "power": 5,
-    "destruction_type": "break",
-    "damage_self": true
-  }
 }
 ```
 This example will cause an explosion whenever the power holder breaks an elytra.

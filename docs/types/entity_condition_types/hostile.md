@@ -18,6 +18,6 @@ Type ID: `apugli:hostile`
 ### Example
 ```json
 "condition": {
-  "type": "apugli:hostile"
+    "type": "apugli:hostile"
 }
 ```

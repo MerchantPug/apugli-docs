@@ -18,6 +18,6 @@ Type ID: `apugli:invert_instant_effects`
 ### Example
 ```json
 {
-  "type": "apugli:invert_instant_effects"
+    "type": "apugli:invert_instant_effects"
 }
 ```

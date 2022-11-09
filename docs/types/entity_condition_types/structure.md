@@ -25,8 +25,8 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-  "type": "apugli:structure",
-  "structure": "minecraft:fortress"
+    "type": "apugli:structure",
+    "structure": "minecraft:fortress"
 }
 ```
 This example checks if the entity is standing in a nether fortress.

@@ -4,7 +4,7 @@ date: 2021-07-13
 ---
 # Undead
 
-[Origin](../origins.md).
+[Origin](../,,/origins.md).
 
 A rare genetic mutation allows this race to keep their humanity despite suffering the effects of the Infection.
 

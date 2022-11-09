@@ -22,18 +22,18 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  "type": "apugli:modify_soul_speed",
-  "modifier": {
-     "operation": "addition",
-    "value": 1
-  },
+    "type": "apugli:modify_soul_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 1
+    },
     "condition": {
-    "type": "apoli:enchantment",
-    "enchantment": "minecraft:soul_speed",
-    "calculation": "max",
-    "comparison": "=",
-    "compare_to": 0
-  }
+        "type": "apoli:enchantment",
+        "enchantment": "minecraft:soul_speed",
+        "calculation": "max",
+        "comparison": "=",
+        "compare_to": 0
+    }
 }
 ```
 This power adds 1 level of Soul Speed to an entity if the entity is wearing equipment without the Soul Speed enchantment.
