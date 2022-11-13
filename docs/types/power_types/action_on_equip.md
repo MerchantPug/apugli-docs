@@ -14,12 +14,12 @@ Type ID: `apugli:action_on_equip`
 ### Fields
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`head` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `head` slot item must meet to run the action.
-`chest` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `chest` slot item must meet to run the action.
-`legs` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `legs` slot item must meet to run the action.
-`feet` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `feet` slot item must meet to run the action.
-`offhand` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that `offhand` slot item must meet to run the action.
-`action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types) | | Action to apply when an item that meets the stated condition is met.
+`head` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that the `head` slot item must meet to run the action.
+`chest` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that the `chest` slot item must meet to run the action.
+`legs` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that the `legs` slot item must meet to run the action.
+`feet` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that the `feet` slot item must meet to run the action.
+`offhand` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types) | *optional* | The condition that the `offhand` slot item must meet to run the action.
+`action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types) | | Action to apply when an item that meets any stated conditions are met.
 
 ### Example
 ```json

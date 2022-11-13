@@ -23,8 +23,10 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Entity Texture Overlay](entity_texture_overlay)
 - [Force Particle Render](force_particle_render)
 - [Hover](hover)
+- [Instant Effect Immunity](instant_effect_immunity)
 - [Invert Instant Effects](invert_instant_effects)
 - [Mobs Ignore](mobs_ignore)
+- [Redirect Lightning](redirect_lightning)
 - [Rocket Jump](rocket_jump)
 - [Set Texture](set_texture)
 
@@ -33,6 +35,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Action On Bonemeal](action_on_bonemeal)
 - [Action On Durability Change](action_on_durability_change)
 - [Action On Equip](action_on_equip)
+- [Action On Target Death](action_on_target_death)
 - [Action On Tame Hit](action_on_tame_hit)
 - [Action When Tame Hit](action_when_tame_hit)
 
