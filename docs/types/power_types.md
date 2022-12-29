@@ -41,6 +41,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 
 #### Modifying types
 - [Modify Block Placed](modify_block_placed)
+- [Modify Breeding Cooldown](modify_breeding_cooldown)
 - [Modify Enchantment Damage Dealt](modify_enchantment_damage_dealt)
 - [Modify Enchantment Damage Taken](modify_enchantment_damage_taken)
 - [Modify Enchantment Level](modify_enchantment_level)

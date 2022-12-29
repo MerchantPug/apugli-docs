@@ -11,12 +11,17 @@ Creates a translucent energy swirl around an entity (Similar to a Charged Creepe
 
 Type ID: `apugli:energy_swirl`
 
+!!! note
+    Any `texture_url` specified files have a size limit of 1MB. You are able to change this through the Apugli config.
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`texture_location` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) |  | The texture used for the energy swirl overlay.
-`speed` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) |  | The speed at which the overlay swirls around the player. You can set this to 0 if you want a static overlay.
+`texture_location` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If specified, the texture used for the energy swirl overlay.
+`texture_url` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | *optional* | If specified, the url to a .png file imported into the game as a texture for this power's use.
+`size` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The scale relative to the entity at which the energy swirl will render at.
+`speed` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `0.01` | The speed at which the overlay swirls around the player. You can set this to 0 if you want a static overlay.
 
 
 ### Example
