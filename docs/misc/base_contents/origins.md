@@ -16,5 +16,5 @@ date: 2021-07-14
 ## TooManyOrigins (Rework)
 !!! note
 
-    The below details future content and is subject to change.
+    The below details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
 * [Hiss-kin](origins/tmo_rework/hisskin.md)

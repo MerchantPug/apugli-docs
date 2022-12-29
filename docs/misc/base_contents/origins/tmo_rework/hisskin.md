@@ -6,7 +6,7 @@ date: 2021-07-13
 
 !!! note
 
-    This page details future content and is subject to change. If you would like to playtest these changes, the files are hosted through the Pug's Modzone Discord Server.
+    This page details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
 
 [Origin](../,,/origins.md).
 
