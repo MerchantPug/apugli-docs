@@ -1,9 +1,9 @@
 ---
-title: Modify Block Placed (Power Type)
+title: Modify Breeding Cooldown (Power Type)
 date: 2022-02-06
 ---
 
-# Modify Block Placed
+# Modify Breeding Cooldown
 
 [Power Type](../power_types.md)
 
