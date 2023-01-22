@@ -51,4 +51,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 2 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
+This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 8 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
