@@ -11,6 +11,12 @@ A power that makes any item that matches an item condition edible.
 
 Type ID: `apugli:edible_item`
 
+!!! NOTE
+    The actual food saturation level is determined by the `food * saturation * 2` formula.
+
+!!! NOTE
+    This power type will only work on players.
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -45,4 +51,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 1 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
+This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 2 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
