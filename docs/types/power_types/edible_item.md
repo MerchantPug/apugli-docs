@@ -27,7 +27,6 @@ Field  | Type | Default | Description
 `return_stack` | [Item Stack](https://origins.readthedocs.io/en/latest/types/data_types/item_stack/) | *optional* | The item stack to replace the item with upon consumption.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play while eating an item affected by this power. If not set this will be the default eating/drinking sound.
 `entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, this action will be executed on the entity eating this item.
-`tick_rate` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `10` | The frequency (in ticks) with which to set the items that satisfy the condition's food components. Lower values set the component quicker, but this comes at a potentially huge performance cost.
 
 ### Example
 ```json
@@ -51,4 +50,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 8 saturation, it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
+This power allows for axolotl in buckets to be edible. Eating an axolotl in a bucket gives 4 hunger shanks and 8 saturation (`4 * 1 * 2` ), it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
