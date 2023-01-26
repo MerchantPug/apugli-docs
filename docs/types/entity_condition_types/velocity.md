@@ -26,6 +26,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
+    "type": "apugli:velocity",
     "axes": [
         "y"
     ],
