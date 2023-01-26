@@ -13,7 +13,7 @@ Type ID: `apugli:prevent_breeding`
 
 !!! note
 
-    Executing entity actions uses up the breeding timer of the entity, in order to modify this timer, please use the [Modify Breeding Cooldown](modify_breeding_cooldown) power type.
+    Executing entity actions uses up the breeding timer of the entity, in order to modify this timer, please use the [Modify Breeding Cooldown](../power_types/modify_breeding_cooldown.md) power type.
 
 ### Fields
 Field  | Type | Default | Description
