@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 `bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, a bi-entity action that applies to the attacker as the actor and the tame as the target.
 `damage_condition` | [Damage Condition](https://origins.readthedocs.io/en/latest/types/damage_condition_types/) | *optional* | If specified, a damage condition that must be met for any actions of this power to run.
 `bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, a bi-entity condition that must be met with the attacker as the actor and tame as the target for any actions of this power to run.
-`owner_bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, a bi-entity action that applies to the attacker as the actor and the owner as the target.
+`owner_bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, a bi-entity action that must be met with the attacker as the actor and the owner as the target.
 `owner_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, a bi-entity condition that must be met with the attacker as the actor and the owner as the target for any actions of this power to run.
 
 ### Example

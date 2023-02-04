@@ -37,4 +37,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will replace Potato crop block with a Diamond Ore block if the player that has the power were to apply Bonemeal to the said crop block.
+This example will replace a Potato block with a Diamond Ore block if the player that has the power were to apply Bonemeal to the said crop block.
