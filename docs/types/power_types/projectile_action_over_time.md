@@ -1,5 +1,5 @@
 ---
-title: Action On Projectile Hit (Power Type)
+title: Projectile Action Over Time (Power Type)
 date: 2023-02-04
 ---
 
