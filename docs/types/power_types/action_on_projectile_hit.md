@@ -1,9 +1,9 @@
 ---
-title: Action On Bonemeal (Power Type)
+title: Action On Projectile Hit (Power Type)
 date: 2023-02-04
 ---
 
-# Action On Bonemeal
+# Action On Projectile Hit
 
 [Power Type](../power_types.md)
 
