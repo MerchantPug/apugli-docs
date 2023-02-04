@@ -35,9 +35,11 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Action On Bonemeal](action_on_bonemeal)
 - [Action On Durability Change](action_on_durability_change)
 - [Action On Equip](action_on_equip)
+- [Action On Projectile Hit](action_on_projectile_hit)
 - [Action On Target Death](action_on_target_death)
 - [Action On Tame Hit](action_on_tame_hit)
 - [Action When Tame Hit](action_when_tame_hit)
+- [Projectile Action Over Time](projectile_action_over_time)
 
 #### Modifying types
 - [Modify Block Placed](modify_block_placed)
