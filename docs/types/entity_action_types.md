@@ -14,4 +14,5 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 - [Resource Transfer](resource_transfer)
 - [Set No Gravity](set_no_gravity)
 - [Spawn Item](spawn_item)
+- [Spawn Particles](spawn_particles)
 - [Zombify Villager](zombify_villager)
