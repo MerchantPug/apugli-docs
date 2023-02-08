@@ -15,7 +15,7 @@ Type ID: `apugli:attacker_condition`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | | The bi-entity condition to test for with the entity as the actor and it's attacker as the target.
+`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | | The bi-entity condition to test for with the entity as the actor and its attacker as the target.
 
 ### Example
 ```json

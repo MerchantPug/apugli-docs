@@ -9,6 +9,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 
 ## Apugli
 - [Attacker Condition](attacker_condition)
+- [Attack Target Condition](attack_target_condition)
 - [Can Have Effect](can_have_effect)
 - [Compare Resource](compare_resource)
 - [Entity In Radius](entity_in_radius)
