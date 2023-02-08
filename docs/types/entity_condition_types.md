@@ -19,6 +19,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Particle In Radius](particle_in_radius)
 - [Player Model Type](player_model_type)
 - [Structure](structure)
+- [Trident Enchantment](trident_enchantment)
 - [Velocity](velocity)
 
 ## Deprecated
