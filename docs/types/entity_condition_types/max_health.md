@@ -15,8 +15,8 @@ Type ID: `apugli:max_health`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| `">="` | How the amount of particles within the specified radius which are the specified should be compared to the specified value.
-`compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The value to compare the amount to.
+`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| `">="` | How the max health of the entity should be compared to the specified value.
+`compare_to` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | | The value to compare the value to.
 
 ### Example
 ```json
