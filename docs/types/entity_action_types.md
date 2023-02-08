@@ -10,9 +10,19 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 ## Apugli
 - [Explode (Apugli)](explode)
 - [Fire Projectile](fire_projectile)
-- [Raycast](raycast)
-- [Resource Transfer](resource_transfer)
 - [Set No Gravity](set_no_gravity)
-- [Spawn Item](spawn_item)
 - [Spawn Particles](spawn_particles)
 - [Zombify Villager](zombify_villager)
+
+## Deprecated
+
+!!! CAUTION
+    These types are under potential removal in future versions as there's a better way of handling what these types can do in either Apoli or Apugli. Avoid using these unless you have to.
+
+- [Raycast](raycast)
+    - Succeeded by [Raycast (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/raycast/).
+    - Only use this if you need to access the entity's reach or if you need a piercing effect.
+- [Resource Transfer](resource_transfer) 
+    - Succeeded by [Modify Resource (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/modify_resource/).
+- [Spawn Item](spawn_item)
+    - Summon an item through commands for this one.

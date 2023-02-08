@@ -12,7 +12,6 @@ Unless stated otherwise, each power type supports a condition field that can che
 ## Apugli
 
 #### Regular Types
-- [Aerial Affinity](aerial_affinity)
 - [Allow Anvil Enchant](allow_anvil_enchant)
 - [Bunny Hop](bunny_hop)
 - [Custom Death Sound](custom_death_sound)
@@ -28,7 +27,6 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Mobs Ignore](mobs_ignore)
 - [Redirect Lightning](redirect_lightning)
 - [Rocket Jump](rocket_jump)
-- [Set Texture](set_texture)
 
 #### Action-related
 - [Action On Block Placed](action_on_block_placed)
@@ -56,6 +54,15 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Prevent Label Render](prevent_label_render)
 - [Prevent Sound](prevent_sound)
 
+## Deprecated
+
+!!! CAUTION
+    These types are under potential removal in future versions as there's a better way of handling what these types can do in either Apoli or Apugli. Avoid using these unless you have to.
+
+- [Aerial Affinity](aerial_affinity)
+    - Succeeded by [Modify Break Speed (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/modify_break_speed/).
+- [Set Texture](set_texture)
+    - Succeeded by [Entity Texture Overlay](entity_texture_overlay).
 <br>
 
 ## TooManyOrigins

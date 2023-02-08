@@ -16,6 +16,16 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Key Pressed](key_pressed)
 - [Particle In Radius](particle_in_radius)
 - [Player Model Type](player_model_type)
-- [Raycast](raycast)
 - [Structure](structure)
 - [Velocity](velocity)
+
+## Deprecated
+
+!!! CAUTION
+    These types are under potential removal in future versions as there's a better way of handling what these types can do in either Apoli or Apugli. Avoid using these unless you have to.
+
+- [Max Health](max_health)
+    - Succeeded by [Attribute (Entity Condition Type)](https://origins.readthedocs.io/en/latest/types/entity_condition_types/attribute/).
+- [Raycast](raycast)
+    - Succeeded by [Raycast (Entity Condition Type)](https://origins.readthedocs.io/en/latest/types/entity_condition_types/raycast/).
+    - Only use this if you need to access the entity's reach.
