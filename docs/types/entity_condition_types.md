@@ -11,6 +11,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Attacker Condition](attacker_condition)
 - [Attack Target Condition](attack_target_condition)
 - [Can Have Effect](can_have_effect)
+- [Can Take Damage](can_take_damage)
 - [Compare Resource](compare_resource)
 - [Entity In Radius](entity_in_radius)
 - [Hostile](hostile)
