@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-    "type": "apugli:entity_in_radius",
+    "type": "apugli:player_model_type",
     "model_type": "default"
 }
 ```
