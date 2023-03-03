@@ -7,7 +7,7 @@ date: 2023-02-08
 
 [Entity Condition Type](../entity_condition_types.md).
 
-Checks for if the entity is immune to a damage source.
+Checks if the entity is immune to a damage source.
 
 Type ID: `apugli:can_take_damage`
 
