@@ -16,7 +16,7 @@ Type ID: `apugli:trident_enchantment`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `enchantment` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The identifier of the enchantment to test.
-`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| | How the amount of particles within the specified radius which are the specified should be compared to the specified value.
+`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/)	| `>=` | How the amount of particles within the specified radius which are the specified should be compared to the specified value.
 `compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | | The value to compare the amount to.
 
 ### Example
