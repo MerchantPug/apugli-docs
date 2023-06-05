@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 `show_first_person` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Whether the texture overlay should show up in first person.
 `use_rendering_powers` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Whether the power should have rendering powers such as `apoli:model_color` applied to them.
 `render_original_model` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `true` | Whether the original model of the entity should be rendered. Layers will remain untouched.
-`render_player_outer_player` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `true` | Whether the power will prevent the outer layer of the player from rendering.
+`render_player_outer_layer` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `true` | Whether the power will prevent the outer layer of the player from rendering.
 
 ### Example
 ```json
