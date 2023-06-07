@@ -1,6 +1,6 @@
 ---
 title: Base Enchantment (Entity Condition Type)
-date: 2021-08-03
+date: 2023-06-07
 ---
 
 # Base Enchantment
@@ -15,7 +15,7 @@ Type ID: `apugli:base_enchantment`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`enchantment` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The namespace and ID of the enchantment of interest.
+`enchantment` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The namespace and ID of the enchantment of interest,  e.g. `minecraft:protection`.
 `calculation` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | `"sum"` | Which number to compare - either the `sum` of levels of this enchantment on all of the player's equipment, or the `max` level of this enchantment on any of the player's equipment.
 `comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | `">="` | How the enchantment level should be compared to the specified value.
 `compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | | The value to compare the enchantment level to.
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "condition": {
-    "type": "origins:base_enchantment",
+    "type": "apugli:base_enchantment",
     "enchantment": "minecraft:thorns",
     "calculation": "max",
     "comparison": ">=",
