@@ -26,7 +26,6 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Invert Instant Effects](invert_instant_effects)
 - [Mobs Ignore](mobs_ignore)
 - [Redirect Lightning](redirect_lightning)
-- [Rocket Jump](rocket_jump)
 
 #### Action-related
 - [Action On Block Placed](action_on_block_placed)
@@ -60,9 +59,11 @@ Unless stated otherwise, each power type supports a condition field that can che
     These types are under potential removal in future versions as there's a better way of handling what these types can do in either Apoli or Apugli. Avoid using these unless you have to.
 
 - [Aerial Affinity](aerial_affinity)
-    - Succeeded by [Modify Break Speed (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/modify_break_speed/).
+    - Succeeded by [Modify Break Speed (Apoli)](https://origins.readthedocs.io/en/latest/types/power_types/modify_break_speed/).
 - [Set Texture](set_texture)
     - Succeeded by [Entity Texture Overlay](entity_texture_overlay).
+- [Rocket Jump](rocket_jump)
+    - Succeeded by a specific configuration of [Active Self (Apoli)](https://origins.readthedocs.io/en/latest/types/power_types/active_self/). See the [toomanyorigins:overheat](https://github.com/MerchantPug/toomanyorigins/blob/1.19.4/Common/src/main/resources/data/toomanyorigins/powers/overheat.json) power JSON for more information. 
 <br>
 
 ## TooManyOrigins
