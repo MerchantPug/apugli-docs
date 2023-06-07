@@ -20,6 +20,7 @@ You can alternatively visit [TooManyOrigins on CurseForge](https://www.curseforg
 * You are able to use the `ope` namespace for any Apugli powers. This is also true for `toomanyorigins` if you have it installed.
 
 ## Old Versions of this Documentation
+* [1.19.3](https://apugli.readthedocs.io/en/1.19.3/)
 * [1.18.2 (Unfinished)](https://apugli.readthedocs.io/en/1.18.x/)
 * [1.17.x](https://apugli.readthedocs.io/en/1.17.x/)
 * [1.16.5 (Unfinished)](https://apugli.readthedocs.io/en/1.16.5/)
