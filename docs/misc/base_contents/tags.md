@@ -31,6 +31,8 @@ date: 2022-08-06
 
 ### Entity Type Tags
 - [Ignore Calming Aura](tags/entity_type/ignore_calming_aura.md)
+- [Ignore Rocket Jump](tags/entity_type/ignore_rocket_jump.md)
+- [Ignore Rocket Jump Damage](tags/entity_type/ignore_rocket_jump_damage.md)
 - [Potionable Arrows](tags/entity_type/potionable_arrows.md)
 - [Tridents](tags/entity_type/tridents.md)
 - [Withered Projectiles](tags/entity_type/withered_projectiles.md)
