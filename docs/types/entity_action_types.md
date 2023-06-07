@@ -21,7 +21,7 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 
 - [Raycast](raycast)
     - Succeeded by [Raycast (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/raycast/).
-    - Only use this if you need to access the entity's reach or if you need a piercing effect.
+    - Only use this if you need to access the entity's reach, if you need to raycast in a specific direction, or if you need a piercing effect.
 - [Resource Transfer](resource_transfer) 
     - Succeeded by [Modify Resource (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/modify_resource/).
 - [Spawn Item](spawn_item)
