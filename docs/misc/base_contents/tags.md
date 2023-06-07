@@ -5,6 +5,11 @@ date: 2022-08-06
 
 # List of Tags
 
+## Apugli
+
+### Status Effect Tags
+- [Charged Effects](tags/mob_effect/charged_effects.md)
+
 ## TooManyOrigins
 
 ### Block Tags
