@@ -10,6 +10,8 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 ## Apugli
 - [Attacker Condition](attacker_condition)
 - [Attack Target Condition](attack_target_condition)
+- [Base Enchantment](base_enchantment)
+- [Cached Block In Radius](cached_block_in_radius)
 - [Can Have Effect](can_have_effect)
 - [Can Take Damage](can_take_damage)
 - [Compare Resource](compare_resource)
