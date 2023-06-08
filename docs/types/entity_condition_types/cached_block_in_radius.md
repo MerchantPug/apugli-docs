@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 `compare_to` | [Integer](../data_types/integer.md) | `1` | The value to compare the amount to.
 
 
-### Examples
+### Example
 
 ```json
 "condition": {
