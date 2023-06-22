@@ -14,6 +14,7 @@ nav:
     - Bi-entity Action Types: types/bientity_action_types.md
     - Block Action Types: types/block_action_types.md
     - Entity Action Types: types/entity_action_types.md
+    - Meta Action Types: types/meta_action_types.md
   - Miscellaneous:
     - Base Contents: misc/base_contents.md
     - Modded Damage Sources: misc/modded_damage_sources.md
