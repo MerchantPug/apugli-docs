@@ -27,6 +27,7 @@ Field  | Type | Default | Description
 `return_stack` | [Item Stack](https://origins.readthedocs.io/en/latest/types/data_types/item_stack/) | *optional* | The item stack to replace the item with upon consumption.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play while eating an item affected by this power. If not set this will be the default eating/drinking sound.
 `entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, this action will be executed on the entity eating this item.
+`item_action` | [Item Action Type](https://origins.readthedocs.io/en/latest/types/item_action_types/) | *optional* | If set, this action will be executed on the item that the entity ate.
 
 ### Example
 ```json
