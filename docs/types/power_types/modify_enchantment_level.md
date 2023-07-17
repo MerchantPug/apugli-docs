@@ -11,14 +11,12 @@ Modifies the entity's enchantment levels.
 
 Type ID: `apugli:modify_enchantment_level`
 
-!!! warning
-    This power type will crash your game if the `apoli:enchantment` entity or item condition is used with it.
-
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
 `enchantment` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The enchantment to apply to the entity.
+`item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | *optional* | If set, the modifier(s) will only apply to items that meet this condition.
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the entity's enchantment levels for the enchantment specified by the `enchantment` field.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the entity's enchantment levels for the enchantment specified by the `enchantment` field.
 
