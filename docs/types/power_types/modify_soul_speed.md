@@ -17,7 +17,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the entity's amount of Soul Speed.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the entity's amount of Soul Speed.
-`block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If set, this will determine what blocks the soul speed effect will activate on.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | *optional* | If set, this will determine what blocks the soul speed effect will activate on.
 
 ### Example
 ```json

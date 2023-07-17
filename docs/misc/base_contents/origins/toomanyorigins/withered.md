@@ -4,7 +4,7 @@ date: 2021-06-20
 ---
 # Withered
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 Originally human, their ancestors have paid the price for harnessing the chaotic power of the Wither.
 
@@ -12,9 +12,11 @@ ID: `toomanyorigins:withered`
 
 ## Powers
 
+![Withered](../../../../images/tmoWitheredBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
-Wither Toxins | `toomanyorigins:wither_toxins` | Your melee attacks inflict the Wither effect for a short time. | Your melee attacks inflict a wither effect on non Undead entities for 5 seconds.
+Wither Toxins | `toomanyorigins:wither_toxins` | Your melee attacks inflict the Wither effect for a short time. | Your melee attacks inflict a wither effect on non Undead entities for 5 seconds. This has a recharge time of 6 seconds.
 Nether Inhabitant | `origins:nether_spawn` |  Your natural spawn will be in the Nether. | You will be teleported into the Nether when choosing this Origin. If you choose it by using an Orb of Origin, you will only respawn in the Nether if you die and do not have a valid spawn point in the overworld.
 Black Thumb | `toomanyorigins:black_thumb` | You spread decay to any overworld crops you plant, making them unable to grow. | Any crop that originates from the overworld (for example: wheat, potatoes) that you plant are replaced with withered versions of them. These withered versions are unable to age/grow.
 Weariness | `toomanyorigins:weariness` | As animals are weary around you, you are unable to breed animals. | You are unable to breed any animals and they will not follow you if you hold out their preferred food.

@@ -14,8 +14,8 @@ Type ID: `apugli:mobs_ignore`
 ### Fields
 Field | Type | Default | Description
 ------|------|---------|------------
-`mob_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If set, this will determine what entity condition the entity must meet in order to be effected by this power.
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, this will determine what bi-entity condition the entity must meet in order to be effected by this power.
+`mob_condition` | [Entity Condition](../entity_condition_types.md) | *optional* | If set, this will determine what entity condition the entity must meet in order to be effected by this power.
+`bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | If set, this will determine what bi-entity condition the entity must meet in order to be effected by this power.
 
 ### Example
 ```json

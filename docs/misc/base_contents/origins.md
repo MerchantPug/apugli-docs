@@ -18,6 +18,8 @@ date: 2021-07-14
 
     The below details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
 
+* [Dragonborn (Rework)](origins/toomanyorigins_rework/dragonborn.md)
+* [Hare (Rework)](origins/toomanyorigins_rework/hare.md)
 * [Hiss-kin (Rework)](origins/toomanyorigins_rework/hisskin.md)
 * [Swarm (Rework)](origins/toomanyorigins_rework/swarm.md)
 * [Withered (Rework)](origins/toomanyorigins_rework/withered.md)

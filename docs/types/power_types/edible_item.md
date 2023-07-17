@@ -21,12 +21,13 @@ Type ID: `apugli:edible_item`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/) |  | The item condition that items must satisfy to be affected by this power.
+`item_condition` | [Item Condition](../item_condition_types.md) |  | The item condition that items must satisfy to be affected by this power.
 `food_component` | [Food Component](../data_types/food_component.md) | | The food component that the item grants upon eating it.
 `use_action` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | *optional* | The action to associate with the player. One of `eat` or `drink`. Defaults to eat when null.
 `return_stack` | [Item Stack](https://origins.readthedocs.io/en/latest/types/data_types/item_stack/) | *optional* | The item stack to replace the item with upon consumption.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | ID of the sound to play while eating an item affected by this power. If not set this will be the default eating/drinking sound.
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, this action will be executed on the entity eating this item.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | *optional* | If set, these action(s) will be executed on the entity eating this item.
+`item_action` | [Item Action Type](../item_action_types.md) | *optional* | If set, these action(s) will be executed on the item that the entity ate.
 
 ### Example
 ```json

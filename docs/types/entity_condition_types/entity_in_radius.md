@@ -15,8 +15,8 @@ Type ID: `apugli:entity_in_radius`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | The entity condition type to check for.
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | The bi-entity condition type to check for with the entity with this condition as the actor and the entities in the radius as the targets.
+`condition` | [Entity Condition](../entity_condition_types.md) | *optional* | The entity condition type to check for.
+`bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | The bi-entity condition type to check for with the entity with this condition as the actor and the entities in the radius as the targets.
 `radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | | The radius to check the entities that fulfill the specified entity condition type within.
 `comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | `">="` | How the amount of entities within the specified radius which fulfills the specified entity/bi-entity condition type(s) should be compared to the specified value.
 `compare_to` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The value to compare the amount to.

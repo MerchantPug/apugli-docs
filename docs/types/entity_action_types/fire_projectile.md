@@ -20,7 +20,7 @@ Field | Type | Default | Description
 `divergence` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | How much each projectile fired is affected by random spread.
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If set, the sound with this ID will be played when the power is used.
 `tag` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | *optional* | NBT data of the entity.
-`bientity_action` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | A bi-entity action to execute with the user as the actor and the projectile as the target upon creating the projectile.
+`bientity_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | A bi-entity action to execute with the user as the actor and the projectile as the target upon creating the projectile.
 
 
 ### Example

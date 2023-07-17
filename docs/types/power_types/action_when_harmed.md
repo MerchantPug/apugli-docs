@@ -18,9 +18,10 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `cooldown` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The number of ticks the entity has to wait between uses of this power.
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/types/data_types/hud_render) | | Determines how the resource is visualized on the HUD.
-`damage_condition` | [Damage Condition Type](https://origins.readthedocs.io/en/latest/types/damage_condition_types/) | *optional* | If specified, a damage condition that must be met by the damage source of the attack for any actions of this power to be run.
-`bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If specified, a bi-entity action that is executed with the attacker as the actor and the power holder as the target.
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, a bi-entity condition that must be met with the attacker as the actor and the power holder as the target for any actions of this power to be run.
+`damage_condition` | [Damage Condition](https://origins.readthedocs.io/en/latest/types/damage_condition_types/) | *optional* | If specified, a damage condition that must be met by the damage source of the attack for any actions of this power to be run.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | *optional* | If specified, an entity action that is executed on the power holder each trigger.
+`bientity_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | If specified, a bi-entity action that is executed with the attacker as the actor and the power holder as the target each trigger.
+`bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | If specified, a bi-entity condition that must be met with the attacker as the actor and the power holder as the target for any actions of this power to be run.
 `amount_to_trigger` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The damage amount required for this power to trigger each individual time.
 `overflow` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Whether the power will run the extra actions if the power holder dies and takes more damage than what was required to kill them.
 
