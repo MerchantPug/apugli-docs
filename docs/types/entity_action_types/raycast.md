@@ -36,6 +36,8 @@ Field  | Type | Default | Description
 `target_action` | [Entity Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the action(s) to be executed on the entities the player has targeted.
 `target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If set, the condition(s) that must be met by each individual entity the player is targeting in order to do actions.
 `self_action` | [Entity Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the action(s) to be executed on the entity that initiated the raycast upon successfully raycasting.
+`direction` | [Vector](https://origins.readthedocs.io/en/latest/types/data_types/vector/) | *optional* | If specified, the direction in which the raycast will travel in.
+`space` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | `"world"` | If `direction` is specified, the [Space](https://origins.readthedocs.io/en/latest/misc/extras/space/) to perform the raycast in.
 
 ### Examples
 ```json

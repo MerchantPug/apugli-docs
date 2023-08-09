@@ -1,9 +1,9 @@
 ---
-title: Looking At (Entity Condition Type)
+title: Raycast (Entity Condition Type)
 date: 2021-08-19
 ---
 
-# Looking At
+# Raycast
 
 [Entity Condition Type](../entity_condition_types.md).
 
@@ -30,6 +30,8 @@ Field  | Type | Default | Description
 `block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If specified, the block condition which must be fulfilled relating to the block that is hit by the raycast.
 `target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If specified, the entity condition which must be fulfilled relating to the entity that is hit by the raycast.
 `bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If specified, the bi-entity condition which must be fulfilled relating to the entity the raycast originates from and the entity that was hit by the raycast.
+`direction` | [Vector](https://origins.readthedocs.io/en/latest/types/data_types/vector/) | *optional* | If specified, the direction in which the raycast will travel in.
+`space` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | `"world"` | If `direction` is specified, the [Space](https://origins.readthedocs.io/en/latest/misc/extras/space/) to perform the raycast in.
 
 ### Example
 ```json
