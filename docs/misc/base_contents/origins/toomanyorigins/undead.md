@@ -12,6 +12,8 @@ ID: `toomanyorigins:undead`
 
 ## Powers
 
+![Undead](../../../../images/tmoUndeadBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 *hidden* | `toomanyorigins:burn_timer` | *none* | When choosing this origin or respawning, you gain an ability cooldown that functions as a timer. When this timer is recharged it allows `toomanyorigins:no_helmet_burn` to activate as long as that ability's other conditions are met.

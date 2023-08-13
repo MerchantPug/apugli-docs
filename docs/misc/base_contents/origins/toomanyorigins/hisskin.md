@@ -12,6 +12,8 @@ ID: `toomanyorigins:hisskin`
 
 ## Powers
 
+![Hiss-kin](../../../../images/tmoHissKinBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 Overheat | `toomanyorigins:overheat` | You can rocket jump away from any object you're looking at. This sets your inner gunpowder on fire harming you in the process. | Your active power (default: G) lets you launch yourself in the opposite direction you're facing while summoning an explosion if your crosshair is on a block or an entity. If you have the [Charged](../../../effects/charged.md) status effect you are able to create a more powerful explosion and launch yourself at 1.5x the regular amount.

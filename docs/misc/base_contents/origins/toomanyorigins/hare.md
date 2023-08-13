@@ -12,6 +12,8 @@ ID: `toomanyorigins:hare`
 
 ## Powers
 
+![Hare](../../../../images/tmoHareBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 Bunny Hop | `toomanyorigins:bunny_hop` | You build up momentum while in the air which is added to your movement speed. You keep built up momentum momentarily while on the ground. You may also gain momentum with your active ability. | You gain 0.00025 velocity to your current movement direction every 10 ticks (capped at 0.015 extra velocity / 60 velocity updates) whenever you aren't on the ground, in water, in lava, in a vehicle (boat, horse, etc), fall flying or not moving at all. Upon meeting any of these conditions you keep your momentum for a maximum of 4 ticks before losing it if you continue to meet the condition.

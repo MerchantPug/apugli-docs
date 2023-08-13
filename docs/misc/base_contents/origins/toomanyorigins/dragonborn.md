@@ -12,6 +12,8 @@ ID: `toomanyorigins:dragonborn`
 
 ## Powers
 
+![Dragonborn](../../../../images/tmoDragonbornBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 Draconic Breath | `toomanyorigins:dragon_breath` | You are able to conjure a ball of armour-piercing draconic flame that leaves a lingering cloud wherever it lands. | Using your active power (default: G) while not looking at a block in the tag `toomanyorigins:lightable` you are able to breathe out a small dragon fireball, once it lands it creates an AoE that deals 3 hearts of armor piercing damage when they are in the AoE's hurtbox.

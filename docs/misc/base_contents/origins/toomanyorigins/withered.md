@@ -12,6 +12,8 @@ ID: `toomanyorigins:withered`
 
 ## Powers
 
+![Withered](../../../../images/tmoWitheredBanner.png)
+
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 Wither Toxins | `toomanyorigins:wither_toxins` | Your melee attacks inflict the Wither effect for a short time. | Your melee attacks inflict a wither effect on non Undead entities for 5 seconds.
