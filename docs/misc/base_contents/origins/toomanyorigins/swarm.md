@@ -4,7 +4,7 @@ date: 2021-03-26
 ---
 # Swarm
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 These hive independent group of bees choose to stick together to overcome the obstacles of the outside world.
 

@@ -4,7 +4,7 @@ date: 2021-08-19
 ---
 # Hare
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 A race of burrow dwelling rabbits that had attained a level of awareness akin to humans. They inherited their proficient mobility.
 

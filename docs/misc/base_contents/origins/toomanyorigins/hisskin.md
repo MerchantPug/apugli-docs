@@ -4,7 +4,7 @@ date: 2021-07-13
 ---
 # Hiss-kin
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 This evolutionary path of creeper learned to control their explosions as to not harm the environment around them as a get-away tactic.
 

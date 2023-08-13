@@ -8,7 +8,7 @@ date: 2021-03-26
 
     This page details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 The Swarm race are hive independent insects, they are proficient farmers that avoid conflict.
 

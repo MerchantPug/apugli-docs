@@ -4,7 +4,7 @@ date: 2021-06-20
 ---
 # Withered
 
-[Origin](../,,/origins.md).
+[Origin](../../origins.md).
 
 Originally human, their ancestors have paid the price for harnessing the chaotic power of the Wither.
 
