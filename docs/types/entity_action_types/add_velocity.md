@@ -7,7 +7,7 @@ date: 2023-09-26
 
 [Entity Action Type](../entity_action_types.md)
 
-Adds or sets velocity towards a specific direction.
+Adds or sets velocity towards a specific direction and also allows you to modify said velocity using modifiers.
 
 Type ID: `apugli:add_velocity`
 
