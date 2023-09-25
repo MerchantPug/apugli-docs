@@ -10,6 +10,7 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 ## Apugli
 - [Add Velocity (Apugli)](add_velocity)
 - [Explode (Apugli)](explode)
+- [Explosion Raycast](explosion_raycast)
 - [Fire Projectile](fire_projectile)
 - [Set No Gravity](set_no_gravity)
 - [Spawn Particles](spawn_particles)
