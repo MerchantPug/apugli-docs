@@ -11,3 +11,4 @@ As a rule of thumb, the actor is usually the entity that "triggers" the action (
 
 ## Apugli
 - [Change Hits on Target](change_hits_on_target)
+- [Spawn Custom Effect Cloud](spawn_custom_effect_cloud)

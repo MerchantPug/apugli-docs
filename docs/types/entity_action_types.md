@@ -14,6 +14,7 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 - [Explosion Raycast](explosion_raycast)
 - [Fire Projectile](fire_projectile)
 - [Set No Gravity](set_no_gravity)
+- [Spawn Custom Effect Cloud](spawn_custom_effect_cloud)
 - [Spawn Particles](spawn_particles)
 - [Zombify Villager](zombify_villager)
 

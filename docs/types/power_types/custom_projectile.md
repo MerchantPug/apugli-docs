@@ -7,7 +7,7 @@ date: 2023-10-29
 
 [Power Type](../power_types.md)
 
-Fires a projectile that is customisable by the fields in the power type.
+Fires a projectile that is customisable by the fields of the power type.
 
 Type ID: `apugli:custom_projectile`
 

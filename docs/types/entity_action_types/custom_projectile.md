@@ -5,9 +5,9 @@ date: 2023-10-29
 
 # Custom Projectile
 
-[Power Type](../power_types.md)
+[Entity Action Type](../entity_action_type.md)
 
-Fires a projectile that is customisable by the fields in the power type.
+Fires a projectile that is customisable by the fields of the entity action type.
 
 Type ID: `apugli:custom_projectile`
 
