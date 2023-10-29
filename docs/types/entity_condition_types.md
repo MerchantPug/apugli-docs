@@ -15,6 +15,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Can Have Effect](can_have_effect)
 - [Can Take Damage](can_take_damage)
 - [Compare Resource](compare_resource)
+- [Custom Entity Id](custom_entity_id)
 - [Entity In Radius](entity_in_radius)
 - [Hostile](hostile)
 - [Join Invulnerability Ticks](join_invulnerability_ticks)
