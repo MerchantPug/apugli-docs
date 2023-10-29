@@ -9,3 +9,4 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 
 ## Apugli
 - [Base Enchantment](base_enchantment)
+- [On Cooldown](on_cooldown)
