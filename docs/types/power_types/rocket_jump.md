@@ -31,8 +31,8 @@ Field  | Type | Default | Description
 `water_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the velocity of the rocket jump when the entity is touching water.
 `damage_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the damage of the explosion caused by the rocket jump.
 `damage_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the damage of the explosion caused by the rocket jump.
-`targetable_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, a bi-entity condition to check for with the power holder as the actor and the target as the target for the rocket jump to successfully land.
-`damage_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, a bi-entity condition that will be applied to any entities damaged by the rocket jump with the power holder as the actor and the target as the target.
+`targetable_bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | If set, a bi-entity condition to check for with the power holder as the actor and the target as the target for the rocket jump to successfully land.
+`damage_bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | If set, a bi-entity condition that will be applied to any entities damaged by the rocket jump with the power holder as the actor and the target as the target.
 `key` | [Key](https://origins.readthedocs.io/en/latest/types/data_types/key/) | | Which active key this power should respond to.
 
 ### Example

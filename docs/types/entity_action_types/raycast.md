@@ -29,13 +29,13 @@ Field  | Type | Default | Description
 `pierce` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/data_types/boolean/) | `false` | Determines if the raycast pierces through entities.
 `particle` | [Particle Effect](https://origins.readthedocs.io/en/latest/types/data_types/particle_effect/) | *optional* | If set, the particle effect that is displayed on the ray.
 `spacing` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `0.5` | If there is a particle effect, the spacing between the particles displayed on the ray.
-`block_action` | [Block Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the block action to be executed on the block the player has targeted.
-`block_condition` | [Block Condition](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | If set, the block condition that must be met by the entity the player is targeting in order to do actions.
-`bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If set, the bi-entity action(s) to be executed on the entities that have been targeted with the entity that initiated the raycast as the actor and each individual entity targeted by the raycast as the target.
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, the bi-entity condition(s) that must be met by the entity that initiated the raycast as the actor and each individual entity targeted by the raycast as the target.
-`target_action` | [Entity Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the action(s) to be executed on the entities the player has targeted.
-`target_condition` | [Entity Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | *optional* | If set, the condition(s) that must be met by each individual entity the player is targeting in order to do actions.
-`self_action` | [Entity Action](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | If set, the action(s) to be executed on the entity that initiated the raycast upon successfully raycasting.
+`block_action` | [Block Action](../entity_action_types.md) | *optional* | If set, the block action to be executed on the block the player has targeted.
+`block_condition` | [Block Condition](../block_condition_types.md) | *optional* | If set, the block condition that must be met by the entity the player is targeting in order to do actions.
+`bientity_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | If set, the bi-entity action(s) to be executed on the entities that have been targeted with the entity that initiated the raycast as the actor and each individual entity targeted by the raycast as the target.
+`bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | If set, the bi-entity condition(s) that must be met by the entity that initiated the raycast as the actor and each individual entity targeted by the raycast as the target.
+`target_action` | [Entity Action](../entity_action_types.md) | *optional* | If set, the action(s) to be executed on the entities the player has targeted.
+`target_condition` | [Entity Condition](../entity_condition_types.md) | *optional* | If set, the condition(s) that must be met by each individual entity the player is targeting in order to do actions.
+`self_action` | [Entity Action](../entity_action_types.md) | *optional* | If set, the action(s) to be executed on the entity that initiated the raycast upon successfully raycasting.
 `direction` | [Vector](https://origins.readthedocs.io/en/latest/types/data_types/vector/) | *optional* | If specified, the direction in which the raycast will travel in.
 `space` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | `"world"` | If `direction` is specified, the [Space](https://origins.readthedocs.io/en/latest/misc/extras/space/) to perform the raycast in.
 

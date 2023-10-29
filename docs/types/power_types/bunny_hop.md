@@ -13,7 +13,7 @@ Type ID: `apugli:bunny_hop`
 
 !!! note
 
-    This power type provides a variable that can be changed with the [Change Resource (Entity Action Type)](https://origins.readthedocs.io/en/latest/types/entity_action_types/change_resource), and check the value of with the [Resource (Entity Condition Type)](https://origins.readthedocs.io/en/latest/types/entity_condition_types/resource).
+    This power type provides a variable that can be changed with the [Change Resource (Entity Action Type)](../entity_action_types.mdchange_resource), and check the value of with the [Resource (Entity Condition Type)](../entity_condition_types.mdresource).
 
 ### Fields
 

@@ -17,10 +17,10 @@ Type ID: `apugli:projectile_action_over_time`
 Field | Type | Default | Description
 ------|------|---------|------------
 `interval` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `20` | The interval at which the power's action(s) trigger.
-`bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target each interval.
-`rising_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target as soon as the power's bi-entity condition becomes true.
-`falling_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target as soon as the power's bi-entity condition becomes false.
-`bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | A bi-entity condition that must be met with the power holder as the actor and the projectile as the target for this power to be run.
+`bientity_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target each interval.
+`rising_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target as soon as the power's bi-entity condition becomes true.
+`falling_action` | [Bi-entity Action](../bientity_action_types.md) | *optional* | A bi-entity action that is run with the power holder as the actor and the projectile as the target as soon as the power's bi-entity condition becomes false.
+`bientity_condition` | [Bi-entity Condition](../bientity_condition_types.md) | *optional* | A bi-entity condition that must be met with the power holder as the actor and the projectile as the target for this power to be run.
 
 ### Examples
 
