@@ -9,3 +9,4 @@ Bi-entity Condition Types operate on a `Pair<Entity, Entity>`, or in simpler ter
 
 ## Apugli
 - [Hits on Target](hits_on_target)
+- [Owner](owner)
