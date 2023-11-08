@@ -13,6 +13,7 @@ Entity Action Types operate on an Entity. Some more specific actions only have a
 - [Explode (Apugli)](explode)
 - [Explosion Raycast](explosion_raycast)
 - [Fire Projectile](fire_projectile)
+- [Item Cooldown](item_cooldown)
 - [Set No Gravity](set_no_gravity)
 - [Spawn Custom Effect Cloud](spawn_custom_effect_cloud)
 - [Spawn Particles](spawn_particles)
