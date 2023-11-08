@@ -17,6 +17,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Compare Resource](compare_resource)
 - [Custom Entity Id](custom_entity_id)
 - [Entity In Radius](entity_in_radius)
+- [Grounded](grounded)
 - [Hostile](hostile)
 - [Join Invulnerability Ticks](join_invulnerability_ticks)
 - [Key Pressed](key_pressed)
