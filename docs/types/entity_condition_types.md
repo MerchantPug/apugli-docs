@@ -23,8 +23,10 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 - [Key Pressed](key_pressed)
 - [Particle In Radius](particle_in_radius)
 - [Player Model Type](player_model_type)
+- [Raining](raining)
 - [Status Effect Tag](status_effect_tag)
 - [Structure](structure)
+- [Thundering](thundering)
 - [Trident Enchantment](trident_enchantment)
 - [Velocity](velocity)
 
