@@ -10,3 +10,4 @@ Block Action Types operate an action at a selected block or set of blocks. These
 ## Apugli
 - [Destroy](destroy)
 - [Light Up](light_up)
+- [Schedule Tick](schedule_tick)
