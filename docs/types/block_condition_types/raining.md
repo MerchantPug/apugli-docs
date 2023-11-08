@@ -7,7 +7,7 @@ date: 2021-08-11
 
 [Block Condition Type](../block_condition_types.md).
 
-Checks whether it's currently raining in the world.
+Checks whether it's currently raining in the world that the block is ins.
 
 Type ID: `apugli:raining`
 
