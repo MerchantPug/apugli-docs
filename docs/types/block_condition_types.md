@@ -9,3 +9,6 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 
 ## Apugli
 - [Air](air)
+- [In Rain](in_rain)
+- [Raining](raining)
+- [Thundering](thundering)
