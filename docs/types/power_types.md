@@ -52,6 +52,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Modify Enchantment Damage Taken](modify_enchantment_damage_taken)
 - [Modify Enchantment Level](modify_enchantment_level)
 - [Modify Equipped Item Render](modify_equipped_item_render)
+- [Modify FoV](modify_fov)
 - [Modify Soul Speed](modify_soul_speed)
 
 #### Preventing types
