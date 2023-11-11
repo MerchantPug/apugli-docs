@@ -28,7 +28,7 @@ Field | Type | Default | Description
 
 ```json
 "item_action": {
-    "type": "origins:damage",
+    "type": "apugli:damage",
     "amount": 10,
     "ignore_unbreaking": true
 }
