@@ -40,6 +40,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Action On Target Death](action_on_target_death)
 - [Action On Target Hurt](action_on_target_hurt)
 - [Action On Tame Hit](action_on_tame_hit)
+- [Action When Lightning Struck](action_when_lightning_struck)
 - [Action When Projectile Hit](action_when_projectile_hit)
 - [Action When Tame Hit](action_when_tame_hit)
 - [Client Action Over Time](client_action_over_time)
