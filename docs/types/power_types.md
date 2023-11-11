@@ -26,6 +26,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Instant Effect Immunity](instant_effect_immunity)
 - [Invert Instant Effects](invert_instant_effects)
 - [Mobs Ignore](mobs_ignore)
+- [Prevent Movement Checks](prevent_movement_checks)
 - [Redirect Lightning](redirect_lightning)
 - [Sprinting](sprinting)
 - [Step Height](step_height)
