@@ -27,6 +27,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Invert Instant Effects](invert_instant_effects)
 - [Mobs Ignore](mobs_ignore)
 - [Redirect Lightning](redirect_lightning)
+- [Sprinting](sprinting)
 - [Step Height](step_height)
 
 #### Action-related
