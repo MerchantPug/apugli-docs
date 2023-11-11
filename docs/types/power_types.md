@@ -22,6 +22,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Energy Swirl](energy_swirl)
 - [Entity Texture Overlay](entity_texture_overlay)
 - [Force Particle Render](force_particle_render)
+- [Freeze (Apugli)](freeze)
 - [Hover](hover)
 - [Instant Effect Immunity](instant_effect_immunity)
 - [Invert Instant Effects](invert_instant_effects)
