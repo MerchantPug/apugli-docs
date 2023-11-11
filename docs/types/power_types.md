@@ -35,6 +35,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Action On Bonemeal](action_on_bonemeal)
 - [Action On Durability Change](action_on_durability_change)
 - [Action On Equip](action_on_equip)
+- [Action On Jump](action_on_jump)
 - [Action On Projectile Hit](action_on_projectile_hit)
 - [Action On Target Death](action_on_target_death)
 - [Action On Target Hurt](action_on_target_hurt)
