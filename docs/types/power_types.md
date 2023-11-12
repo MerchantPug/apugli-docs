@@ -18,6 +18,8 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Custom Footstep](custom_footstep)
 - [Custom Hurt Sound](custom_hurt_sound)
 - [Custom Projectile](custom_projectile)
+- [Damage Nearby On Hit](damage_nearby_on_hit)
+- [Damage Nearby When Hit](damage_nearby_when_hit)
 - [Edible Item](edible_item)
 - [Energy Swirl](energy_swirl)
 - [Entity Texture Overlay](entity_texture_overlay)
