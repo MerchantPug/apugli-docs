@@ -17,7 +17,6 @@ Type ID: `apugli:damage_nearby_on_hit`
 Field | Type | Default | Description
 ------|------|---------|------------
 `damage_condition` | [Damage Condition](https://origins.readthedocs.io/en/latest/types/damage_condition_types/) | *optional* | If specified, the damage condition required for this power to act upon damaging an entity.
-`damage_type` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | 
 `source` | [Damage Source](https://origins.readthedocs.io/en/latest/types/data_types/damage_source/) | | The damage source used to deal damage to the nearby entities.
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the damage value dealt to the nearby entities.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the damage value dealt to the nearby entities.
