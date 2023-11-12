@@ -15,8 +15,7 @@ Type ID: `apugli:can_take_damage`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_type` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The damage type to be tested by this condition.
-`source` | [Damage Source](https://origins.readthedocs.io/en/latest/types/data_types/damage_source/) | **DEPRECATED** | Use `damage_type` instead. [More information here.](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0)
+`source` | [Damage Source](https://origins.readthedocs.io/en/latest/types/data_types/damage_source/) | | The damage source to be tested by this condition.
 
 ### Example
 ```json
