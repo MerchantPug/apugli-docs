@@ -68,6 +68,9 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Prevent Label Render](prevent_label_render)
 - [Prevent Sound](prevent_sound)
 
+#### Integration
+- [Modify Scale](modify_scale) - Requires Pehkui
+
 ## Deprecated
 
 !!! CAUTION
