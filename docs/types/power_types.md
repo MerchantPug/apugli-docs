@@ -69,7 +69,10 @@ Unless stated otherwise, each power type supports a condition field that can che
 - [Prevent Sound](prevent_sound)
 
 #### Integration
-- [Modify Scale](modify_scale) - Requires Pehkui
+!!! NOTE
+    These types require another mod to properly function. The game will throw a warning message if you try downloading an integration power type without the mod it requires. I would recommend putting a loading condition (`fabric:loading_conditions`/`forge:conditions`) if you want an integration power to not throw this error.
+
+- [Modify Scale](modify_scale) - Requires [Pehkui](https://modrinth.com/mod/pehkui/)
 
 ## Deprecated
 
