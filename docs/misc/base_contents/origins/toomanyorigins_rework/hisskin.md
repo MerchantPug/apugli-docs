@@ -16,7 +16,7 @@ ID: `toomanyorigins:hisskin`
 
 ## Powers
 
-![Hiss-kin (Rework)](../../../../images/tmoHissKinBannerRework.png)
+![Hiss-kin (Rework)](../../../../images/tmoHisskinBannerRework.png)
 
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
