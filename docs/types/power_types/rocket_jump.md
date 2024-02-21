@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 `cooldown` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `1` | The number of ticks the player has to wait between uses of this power.
 `distance` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | Determines the maximum length of the raycast. Defaults to the entity's reach if not present. |
 `hud_render` | [Hud Render](https://origins.readthedocs.io/en/latest/types/data_types/hud_render/) |  | Specifies how and if a cooldown bar is rendered.
-`damage_type` | [Identifier]() | | If set, this is the damage type that will be used to deal damage to the entity upon using this ability.
+`damage_type` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier) | | If set, this is the damage type that will be used to deal damage to the entity upon using this ability.
 `source` | [Damage Source](https://origins.readthedocs.io/en/latest/types/data_types/damage_source/) | **DEPRECATED** | Use `damage_type` instead. [More information here.](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0)
 `amount` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional*| How much damage will be dealt upon using this ability.
 `velocity` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1.0` | The velocity applied to the player in the opposite direction they are facing when using this power.
