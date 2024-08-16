@@ -22,9 +22,13 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `scale_type` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If set, this scale type will be modified.
 `scale_types` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If set, these scale types will be modified.
-`modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier that will apply to the scale value.
-`modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers that will apply to the scale value.
+`modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the scale value.
+`modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the scale value.
+`easing` [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | *optional* | If set, the easing to apply to scale changes.
 `delay` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `0` | If set, this delay will be applied to scale changes.
+`delay_modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to delay value.
+`delay_modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the delay value.
+`priority` | [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) | `0` | Determines the priority of which the power will apply its modification to the entity's scale.
 
 ### Example
 ```json
