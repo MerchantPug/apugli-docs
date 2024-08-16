@@ -7,5 +7,4 @@ date: 2021-01-08
 
 ## TooManyOrigins
 * [Charged](effects/charged.md)
-* [End Fire](effects/end_fire.md)
 * [Zombifying](effects/zombifying.md)

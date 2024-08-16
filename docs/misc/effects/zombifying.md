@@ -2,7 +2,7 @@
 title: Zombifying (Status Effects)
 date: 2021-08-03
 ---
-# Zombifying (TooManyOrigins)
+# Zombifying
 
 [Status Effect](../effects.md). 
 
