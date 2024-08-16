@@ -12,26 +12,7 @@ date: 2022-08-06
 
 ## TooManyOrigins
 
-### Block Tags
 - [Lightable](tags/block/lightable.md)
-
-### Entity Type Tags
-- [Ignore Rocket Jump](tags/entity_type/ignore_rocket_jump.md)
-- [Ignore Rocket Jump Damage](tags/entity_type/ignore_rocket_jump_damage.md)
-
-### Item Tags
-- [Carrots](tags/item/carrots.md)
-- [Crop Seeds](tags/item/crop_seeds.md)
-- [Ignore Head Slot](tags/item/ignore_head_slot.md)
-- [Stem Seeds](tags/item/stem_seeds.md)
-
-## TooManyOrigins (Rework)
-!!! note
-
-    The below details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
-
-### Block Tags
-- [Lightable](tags/block/lightable_rework.md)
 - [Lightning Rods](tags/block/lightning_rods.json)
 
 ### Entity Type Tags
@@ -48,3 +29,21 @@ date: 2022-08-06
 - [Frostball Activators](tags/item/frostball_activators.md)
 - [Thunderball Activators](tags/item/thunderball_activators.md)
 - [Weavable Nether Plants](tags/item/weavable_nether_plants.md)
+
+## TooManyOrigins (Legacy)
+!!! note
+
+    The below details legacy content, accessed through a datapack in the world creation screen, or can be downloaded at [this GitHub Repository.](https://github.com/MerchantPug/legacy-toomanyorigins-datapack)
+
+### Block Tags
+- [Lightable](tags/block/lightable_legacy.md)
+
+### Entity Type Tags
+- [Ignore Rocket Jump](tags/entity_type/ignore_rocket_jump.md)
+- [Ignore Rocket Jump Damage](tags/entity_type/ignore_rocket_jump_damage.md)
+
+### Item Tags
+- [Carrots](tags/item/carrots.md)
+- [Crop Seeds](tags/item/crop_seeds.md)
+- [Ignore Head Slot](tags/item/ignore_head_slot.md)
+- [Stem Seeds](tags/item/stem_seeds.md)

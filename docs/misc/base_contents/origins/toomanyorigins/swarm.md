@@ -6,22 +6,20 @@ date: 2021-03-26
 
 [Origin](../../origins.md).
 
-These hive independent group of bees choose to stick together to overcome the obstacles of the outside world.
+The Swarm race are hive independent insects, they are proficient farmers that avoid conflict.
 
 ID: `toomanyorigins:swarm`
 
 ## Powers
 
-![Swarm](../../../../images/tmoSwarmBanner.png)
+![Swarm (Rework)](../../../../images/tmoSwarmBannerRework.png)
 
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
-Hover | `toomanyorigins:hover_toggle` | Being made up of multiple bees, you are able to hover midair whenever you are falling. | Acts as a toggle for the hover power.
-*hidden* | `toomanyorigins:hover` | *none* | While pressing space you are able to hover midair for a maximum of 3 seconds. To recharge this you must be on the ground for 0.5 seconds and then it will gradually increase until it's at full charge. This recharges as normal while toggled off.
-Smoke Sensitivity | `toomanyorigins:smoke_sensitivity` | Your senses are lessened when near smoke. | When within a 5 block radius of the `minecraft:large_smoke`, `minecraft:campfire_cozy_smoke` or `minecraft:campfire_signal_smoke` particle types, you will exhaust a value of 0.1 each second you stay near them.
-Pollination | `toomanyorigins:pollination` | While you aren't sneaking, your bone meal is infused with pollen, allowing it to additionally affect the 4 adjacent blocks. | Whilst not sneaking, any bone meal used on bone mealable blocks will also affect the adjacent 4 tiles.
-Calming Aura | `toomanyorigins:calming_aura` | Animals bred by you do not have to wait to be bred again. | Any animals you breed can be bred again immediately.
-Expendable | `toomanyorigins:expendable` | You have 3 less hearts of health than humans | You have 7 hearts.
-Beekeeper | `toomanyorigins:beekeeper` | Taking honey and honeycomb from a hive does not anger bees. | Any interactions with beehives that would normally anger its bees do not anger them.
-*hidden* | `toomanyorigins:aerial_affinity` | *none* | Your mining speed in the air is the same as your ground mining speed.
+Hover | `toomanyorigins:hover` | You are able to hover midair whenever you would be falling, exhausting and making you unable to use ranged weapons during the process. | While holding the jump key (Default: Space) whilst you are supposed to be falling, you are able to hover midair which exhausts you for a value of `0.05` if you are sprinting or `0.02` if you are not sprinting each tick. Using any item whilst hovering will increase this exhaustion amount by `0.03`.
+Pollination | `toomanyorigins:pollination` | While you aren't sneaking, using bone meal additionally affects the 4 adjacent blocks. | Whilst not sneaking, any bone meal used on bone mealable blocks will also affect the adjacent 4 tiles.
+Calming Aura | `toomanyorigins:calming_aura` | Animals bred by you do not have to wait to be bred again provided that they can't attack players or hostile mobs. | Animals that are not in the `toomanyorigins:ignore_calming_aura` tag can be bred again immediately.
+Stinging Pains | `toomanyorigins:stinging_pains` | You exhaust whenever you harm hostile entities through direct means. | Harming `HostileEntity`s will exhaust you for `0.6` per individual damage dealt.
+Unity | `toomanyorigins:unity` | You lose maximum hearts of health dependent on your hunger level. | You drop down to 7 maximum hearts upon reaching below 6 hunger shanks, you then drop down to 4 hearts upon reaching 3 hunger shanks.
+Beekeeper | `toomanyorigins:beekeeper` | You will not anger bees upon taking from their hive. | Any interactions with beehives that would normally anger its bees do not anger them.
 *hidden* | `toomanyorigins:arthropod` | *none* | You are classified as an arthropod, meaning you receive more damage from weapons enchanted with Bane of Arthropods.

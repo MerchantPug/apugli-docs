@@ -1,25 +1,28 @@
 ---
 title: Hare (Origin)
-date: 2021-08-19
+date: 2023-08-13
 ---
 # Hare
 
 [Origin](../../origins.md).
 
-A race of burrow dwelling rabbits that had attained a level of awareness akin to humans. They inherited their proficient mobility.
+A race of well-travelled intelligent rabbits that hop at such a speed they can skip across water.
 
 ID: `toomanyorigins:hare`
 
 ## Powers
 
-![Hare](../../../../images/tmoHareBanner.png)
+![Hare (Rework)](../../../../images/tmoHareBannerRework.png)
 
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
-Bunny Hop | `toomanyorigins:bunny_hop` | You build up momentum while in the air which is added to your movement speed. You keep built up momentum momentarily while on the ground. You may also gain momentum with your active ability. | You gain 0.00025 velocity to your current movement direction every 10 ticks (capped at 0.015 extra velocity / 60 velocity updates) whenever you aren't on the ground, in water, in lava, in a vehicle (boat, horse, etc), fall flying or not moving at all. Upon meeting any of these conditions you keep your momentum for a maximum of 4 ticks before losing it if you continue to meet the condition.
-*hidden* | `toomanyorigins:bunny_hop_active` | *none* | This active power (default: G) adds 10 velocity updates (16.67% of the maximum (60)) to your current amount of velocity updates. This active power has a cooldown of 30 seconds and may not be used when your velocity is at its maximum value.
-Photophobia | `toomanyorigins:photophobia` | You are unable to sleep in bright light. | You cannot sleep in a bed that is placed in a light level above 9.
-Sugary Delicacy | `toomanyorigins:sugary_delicacy` | Eating carrots and golden carrots fills your bunny hop momentum up to a quarter. | Consuming items in the `toomanyorigins:carrots` tag fills your `toomanyorigins:bunny_hop` resource to 25% full if it is lower.
-Moon Leap | `toomanyorigins:large_leap` | While sneaking your jump height is increased. | While sneaking you can jump about 3 blocks high.
-Lightweight | `toomanyorigins:lightweight` | You have 2 less hearts of health than humans. | You have 8 hearts.
-Vegetarian | `origins:vegetarian` | You can't digest any meat | You cannot eat food items defined in the tag origins:meat, unless they are also defined in the `origins:ignore_diet` tag.
+Hot Hops | `toomanyorigins:hot_hops` | Hopping while sprinting allows you leap forward, the amount you leap increases after each hop. | Your air speed increases by 0.00125 after leaping from the ground up to 7 consecutive times. This resets after being submerged in water, being grounded for 1 second, or when no longer sprinting.
+Superfall | `toomanyorigins:superfall` | By sneaking while in the air you are able to fall at a faster rate, preventing fall damage. | Your falling velocity becomes 160% of the regular amount and you become immune to fall damage whilst sneaking. 
+Frail | `toomanyorigins:frail` | You receive more damage from non-entity sources. | You receive one more damage from any damage source that does not have an attacker associated with it.
+Vegetarian | `origins:vegetarian` | You can't digest any meat. | You cannot eat food items defined in the tag `origins:meat`, unless they are also defined in the `origins:ignore_diet` tag.
+Drenchable Fur | `toomanyorigins:drenchable_fur` | As a creature susceptible to water, you are unable to move as quickly whilst in water. | You move 40% slower whilst in water.
+Waterskipper | `toomanyorigins:waterskipper` | You are able to stand on the surface of water for a short amount of time whilst at maximum hopping speed. | Whilst at maximum hopping speed, and when not sneaking, you are able to stand on water surfaces for 0.5 seconds upon touching them. If you spend longer than this amount, you have to wait a second before attempting to waterskip again.
+Small Appetite | `toomanyorigins:small_appetite` | You exhaust slower than others, thus you are able to eat less. | Everything you do exhausts you 60% less.
+*hidden* | `toomanyorigins:extra_step_height` | *none* | You are able to step up an entire block when coming into contact with one, you are also allowed to jump immediately after performing this.
+*hidden* | `toomanyorigins:prevent_movement_checks` | *none.* | Prevents movement checks performed by the server as they get in the way of Superfall.
+*hidden* | `toomanyorigins:cancel_out_sprint_disable_on_hit` | *none.* | Fixes a vanilla bug where a player will stop sprinting serverside upon landing an attack on an entity.

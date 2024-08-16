@@ -15,6 +15,6 @@ Name | Description
 ## TooManyOrigins (Rework)
 Name | Description
 -----|-------------
-`buildup`/`toomanyorigins:buildup` | damage from Hiss-kin utilising their rocket jump.
+`buildup`/ `toomanyorigins:buildup` | damage from Hiss-kin utilising their rocket jump.
 `dragonbornFireball` / `toomanyorigins:dragonborn_fireball` | damage from the impact of a Dragonborn's fireball.
 `dragonbornShock` / `toomanyorigins:dragonborn_shock` | damage from a Dragonborn hitting an entity whilst it is in their thunderball cloud.

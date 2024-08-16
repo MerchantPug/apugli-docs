@@ -1,8 +1,12 @@
 ---
-title: Undead (Origin)
+title: Undead (Legacy) (Origin)
 date: 2021-07-13
 ---
 # Undead
+
+!!! note
+
+    The below details legacy content, accessed through a datapack in the world creation screen, or can be downloaded at [this GitHub Repository.](https://github.com/MerchantPug/legacy-toomanyorigins-datapack)
 
 [Origin](../../origins.md).
 

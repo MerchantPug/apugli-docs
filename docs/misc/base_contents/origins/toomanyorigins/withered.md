@@ -1,27 +1,25 @@
 ---
 title: Withered (Origin)
-date: 2021-06-20
+date: 2023-03-04
 ---
 # Withered
 
 [Origin](../../origins.md).
 
-Originally human, their ancestors have paid the price for harnessing the chaotic power of the Wither.
+A result of their ancestors harnessing the chaotic power of the Wither, they drain the life force out of those they kill.
 
 ID: `toomanyorigins:withered`
 
 ## Powers
 
-![Withered](../../../../images/tmoWitheredBanner.png)
+![Withered (Rework)](../../../../images/tmoWitheredBannerRework.png)
 
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
-Wither Toxins | `toomanyorigins:wither_toxins` | Your melee attacks inflict the Wither effect for a short time. | Your melee attacks inflict a wither effect on non Undead entities for 5 seconds. This has a recharge time of 6 seconds.
-Nether Inhabitant | `origins:nether_spawn` |  Your natural spawn will be in the Nether. | You will be teleported into the Nether when choosing this Origin. If you choose it by using an Orb of Origin, you will only respawn in the Nether if you die and do not have a valid spawn point in the overworld.
-Black Thumb | `toomanyorigins:black_thumb` | You spread decay to any overworld crops you plant, making them unable to grow. | Any crop that originates from the overworld (for example: wheat, potatoes) that you plant are replaced with withered versions of them. These withered versions are unable to age/grow.
-Weariness | `toomanyorigins:weariness` | As animals are weary around you, you are unable to breed animals. | You are unable to breed any animals and they will not follow you if you hold out their preferred food.
-Spirit Strider | `toomanyorigins:scorched_structure` | You have one extra level of Soul Speed at all times. | One level of the soul speed enchantment is added to you at all times. Having boots without soul speed does not use up the durability of them.
-Soul Shield | `toomanyorigins:soul_shield` | When you are at 50% of your maximum health or below, you create a soul projection around yourself, making yourself more resistant to damage and immune to projectiles. | When you are at 50% of your maximum health or less you gain the soul shield effect, making you take 20% less damage and immune to any damage source tagged as a projectile.
-*hidden* | `toomanyorigins:soul_shield_overlay` | *none* | Creates an energy swirl overlay similar to that of the Wither entity's when you are at 50% of your maximum health or below.
-Infused Veins | `toomanyorigins:wither_immunity` | You are immune to the Wither effect. | You are immune to wither effects.
-*hidden* | `toomanyorigins:unholy` | *none* | You take `2.5 * level` extra damage from the Smite enchantment.
+Affliction | `toomanyorigins:affliction` | Some projectiles will inflict Wither upon hitting a healthy target. | Hitting an entity with a projectile in the `toomanyorigins:withered_projectiles` entity type tag. This does not apply if used with an arrow with a potion effect, an arrow that is on fire, or a trident that has the Channeling enchantment in thunder spawning conditions. Wither effect particles will display from the projectile if these conditions are met. Additionally hitting an entity with a projectile in the `toomanyorigins:withered_projectiles` entity type tag will extinguish you, regardless of other conditions applied to the wither on hit. Upon hitting an entity, this power goes into cooldown for 8 seconds.
+Soul Siphon | `toomanyorigins:soul_siphon` | Upon killing an enemy, you drain their life force, filling your hunger. | Upon killing an entity, you will be fed based on the entity's max health attribute. You will be fed 4 food and 1.26 saturation if the entity has less than a maximum of 15 health, 6 food and 7.2 saturation if the entity has equal to or more than 15 maximum health but less than a maximum of 30 health, and 8 food and 12.8 saturation the entity has 30 maximum health or more. You are also fed 1 food and 2.4 saturation whenever an entity that you have attacked receives wither damage.
+Nether Inhabitant | `origins:nether_spawn` | Your natural spawn will be in the Nether. | You will be teleported into the Nether when choosing this Origin. If you choose it by using an Orb of Origin, you will only respawn in the Nether if you die and do not have a valid spawn point in the overworld.
+Hell-Raised | `toomanyorigins:hell_raised` | You gain access to an alternative recipe for arrows. | Arrows can additionally be crafted by replacing the feather with an item inside the `toomanyorigins:weavable_nether_plants` item tag.
+Spirit Strider | `toomanyorigins:spirit_strider` | You have one extra level of soul speed at all times. | One level of the soul speed enchantment is added to you at all times. Having boots without soul speed does not use up the durability of them.
+Deathly Digestion | `toomanyorigins:deathly_digestion` | Food items are less nourishing for you. | Food and saturation values from eating is decreased by 50% and everything you do whilst a non Nether dimension exhausts you 75% more.
+*hidden* | `toomanyorigins:unholy` | *none* | You receive more damage from weapons enchanted with Smite.

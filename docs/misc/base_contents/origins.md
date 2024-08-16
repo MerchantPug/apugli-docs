@@ -10,16 +10,16 @@ date: 2021-07-14
 * [Hare](origins/toomanyorigins/hare.md)
 * [Hiss-kin](origins/toomanyorigins/hisskin.md)
 * [Swarm](origins/toomanyorigins/swarm.md)
-* [Undead](origins/toomanyorigins/undead.md)
 * [Withered](origins/toomanyorigins/withered.md)
 
-## TooManyOrigins (Rework)
+## TooManyOrigins (Legacy)
 !!! note
 
-    The below details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
+    The below details legacy content, accessed through a datapack in the world creation screen, or can be downloaded at [this GitHub Repository.](https://github.com/MerchantPug/legacy-toomanyorigins-datapack)
 
-* [Dragonborn (Rework)](origins/toomanyorigins_rework/dragonborn.md)
-* [Hare (Rework)](origins/toomanyorigins_rework/hare.md)
-* [Hiss-kin (Rework)](origins/toomanyorigins_rework/hisskin.md)
-* [Swarm (Rework)](origins/toomanyorigins_rework/swarm.md)
-* [Withered (Rework)](origins/toomanyorigins_rework/withered.md)
+* [Dragonborn](origins/toomanyorigins_legacy/dragonborn.md)
+* [Hare](origins/toomanyorigins_legacy/hare.md)
+* [Hiss-kin](origins/toomanyorigins_legacy/hisskin.md)
+* [Swarm](origins/toomanyorigins_legacy/swarm.md)
+* [Undead](origins/toomanyorigins_legacy/undead.md)
+* [Withered](origins/toomanyorigins_legacy/withered.md)

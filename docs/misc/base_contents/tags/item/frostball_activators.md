@@ -10,7 +10,7 @@ date: 2023-08-13
 
 [Item Tag](../tags.md).
 
-Defines items that allow a player with the [Dragonborn](../../origins/toomanyorigins_rework/dragonborn.md) origin to swap to the Frost Breath Type.
+Defines items that allow a player with the [Dragonborn](../../origins/toomanyorigins/dragonborn.md) origin to swap to the Frost Breath Type.
 
 Location: `toomanyorigins/tags/items/frostball_activators`
 

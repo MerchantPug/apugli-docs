@@ -6,7 +6,7 @@ date: 2022-08-06
 
 [Block Tag](../tags.md).
 
-Defines which blocks a player with the [Dragonborn](../../origins/toomanyorigins/dragonborn.md) origin has to look at to activate the Wyrmsmith's Touch power.
+Defines which blocks the [Dragonborn](../../origins/toomanyorigins/dragonborn.md) origin's fireball with the `fire` breath type will activate.
 
 Location: `toomanyorigins/tags/blocks/lightable`
 
@@ -14,6 +14,4 @@ Location: `toomanyorigins/tags/blocks/lightable`
 - `minecraft:furnace`
 - `minecraft:smoker`
 - `minecraft:blast_furnace`
-- `minecraft:campfire`
-- `minecraft:soul_campfire`
-- `minecraft:brewing_stand`
+- `#minecraft:campfires`

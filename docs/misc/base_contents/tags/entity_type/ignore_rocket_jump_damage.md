@@ -6,7 +6,7 @@ date: 2023-03-04
 
 [Entity Type Tag](../tags.md).
 
-Defines what ignores the [Hiss-kin](../../origins/hisskin.md)'s Overheat power's damage from the explosion.
+Defines what ignores the [Hiss-kin](../../origins/toomanyorigins/hisskin.md)'s Buildup power's damage from the explosion.
 
 Location: `toomanyorigins/tags/entity_types/ignore_rocket_jump_damage`
 
