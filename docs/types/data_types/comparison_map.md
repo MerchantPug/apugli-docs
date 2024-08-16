@@ -13,7 +13,7 @@ Either a singular or an [Array](https://origins.readthedocs.io/en/latest/types/d
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | | How the value should be compared. 
-`compare_to` | A Numerical Type |  | The value that is compared.
+`compare_to` | A [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) or [Integer](https://origins.readthedocs.io/en/latest/types/data_types/integer/) depending on the type of value being compared to. |  | The value that is compared.
 
 ### Examples:
 ```json

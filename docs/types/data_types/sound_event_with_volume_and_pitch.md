@@ -13,7 +13,7 @@ Either a [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `sound` | [Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/) | | The namespace and ID of the sound to play.
-`yolume` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1` | The volume at which the sound will play.
+`volume` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1` | The volume at which the sound will play.
 `pitch` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `1` | The pitch at which the sound will play.
 
 ### Examples:
