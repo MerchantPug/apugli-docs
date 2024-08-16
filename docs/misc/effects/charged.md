@@ -1,8 +1,8 @@
 ---
-title: Charged (TooManyOrigins) (Status Effects)
+title: Charged (Status Effects)
 date: 2021-01-08
 ---
-# Charged (TooManyOrigins)
+# Charged
 
 [Status Effect](../effects.md). 
 
