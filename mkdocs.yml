@@ -52,7 +52,7 @@ extra:
         name: Apugli GitHub
       - icon: fontawesome/brands/discord
         link: https://discord.gg/UBfEjsANNz
-        name: Pug's Modzone Discord
+        name: Greenhouse Team Discord
 markdown_extensions:
     - toc:
         separator: "_"
