@@ -4,10 +4,6 @@ date: 2023-08-13
 ---
 # Thunderball Activators
 
-!!! note
-
-    This page details future content and is subject to change. If you would like to playtest these changes the files are marked as betas on CurseForge and Modrinth and as a pre-release on GitHub.
-
 [Item Tag](../tags.md).
 
 Defines items that allow a player with the [Dragonborn](../../origins/toomanyorigins/dragonborn.md) origin to swap to the Thunder Breath Type.
