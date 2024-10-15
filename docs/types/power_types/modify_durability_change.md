@@ -25,6 +25,7 @@ Field  | Type | Default | Description
 `comparisons` | [Comparison Map](../data_types/comparison_map.md) with [Floats](https://origins.readthedocs.io/en/latest/types/data_types/float/) | *optional* | If set, values and comparisons that the item's added damage value must be compared to for this power to come into effect.
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to any time that an item meets the item condition's has a change in durability.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to any time that an item meets the item condition's has a change in durability.
+`function` | [String](https://origins.readthedocs.io/en/latest/types/data_types/string/) | `"floor"` | Determines an operation to use for non-integer values. One of: `"floor"`, `"round"`, `"ceiling"`.
 
 ### Example
 ```json
