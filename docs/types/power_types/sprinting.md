@@ -7,13 +7,12 @@ date: 2023-11-11
 
 [Power Type](../power_types.md).
 
-Sets the entity to sprint if they are moving forward.
+Sets the entity to sprint.
 
 Type ID: `apugli:sprinting`
 
 ### Fields
-
-*None.*
+`requires_input` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Whether a player requires forward input (double tap forward key/use sprint key) to sprint. 
 
 ### Example
 ```json
