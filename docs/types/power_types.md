@@ -14,6 +14,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 #### Regular Types
 - [Allow Anvil Enchant](allow_anvil_enchant)
 - [Bunny Hop](bunny_hop)
+- [Crawling](crawling)
 - [Custom Death Sound](custom_death_sound)
 - [Custom Footstep](custom_footstep)
 - [Custom Hurt Sound](custom_hurt_sound)
@@ -65,6 +66,7 @@ Unless stated otherwise, each power type supports a condition field that can che
 #### Preventing types
 - [Prevent Bee Anger](prevent_bee_anger)
 - [Prevent Breeding](prevent_breeding)
+- [Prevent Entity Selection](prevent_entity_selection)
 - [Prevent Label Render](prevent_label_render)
 - [Prevent Sound](prevent_sound)
 
