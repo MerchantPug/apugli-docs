@@ -17,7 +17,8 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attribute Modifier](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, this modifier will apply to the time it takes to fully freeze an entity.
 `modifiers` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Attribute Modifiers](https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier/) | *optional* | If set, these modifiers will apply to the time it takes to fully freeze an entity.
-`should_damage` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) |  | Whether this power type's freeze should damage the power holder. 
+`should_damage` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | <span style="color:darkred"><b>DEPRECATED</b></span> | Whether this power type's freeze should damage the power holder. 
+`should_damage_condition` | [Entity Condition](../entity_condition_types.md) | *optional* | If set, the entity will only receive damage if this is true. If not set, this entity will always take damage.
 
 ### Example
 ```json
