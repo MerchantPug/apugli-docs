@@ -24,6 +24,9 @@ Field | Type | Default | Description
 `attacker_self_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, this condition must be met with the attacker as the actor and the power holder as the target to apply damage to nearby entities.
 `attacker_nearby_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, this condition must be met with the attacker as the actor and an entity that should be damaged by this power as the target to apply damage to that entity.
 `self_nearby_bientity_condition` | [Bi-entity Condition](https://origins.readthedocs.io/en/latest/types/bientity_condition_types/) | *optional* | If set, this condition must be met with the power holder as the actor and an entity that should be damaged by this power as the target to apply damage to that entity.
+`attacker_self_bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If set, this applies an action with the attacker as the actor and the power holder as the target.
+`attacker_nearby_bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If set, this applies an action with the attacker as the actor and any entities that were damaged by this power as the target.
+`self_nearby_bientity_action` | [Bi-entity Action](https://origins.readthedocs.io/en/latest/types/bientity_action_types/) | *optional* | If set, this applies an action with the power holder as the actor and any entities that were damaged by this power as the target.
 `radius` | [Float](https://origins.readthedocs.io/en/latest/types/data_types/float/) | `16.0` | The radius in which this power will act.
 
 ### Examples
